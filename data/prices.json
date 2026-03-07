@@ -5,7 +5,12 @@
     "dxy": 103.73,
     "eurusd": 1.08571,
     "usdjpy": 147.69,
-    "gbpusd": 1.29116
+    "gbpusd": 1.29116,
+    "cny_per_usd": 7.236,
+    "cny_per_eur": 7.856198,
+    "cny_per_jpy": 0.048995,
+    "cny_per_gbp": 9.342834,
+    "xauusd_cny_g": 676.84
   },
   {
     "date": "2025-03-10",
@@ -13,7 +18,12 @@
     "dxy": 103.753,
     "eurusd": 1.0845,
     "usdjpy": 146.97,
-    "gbpusd": 1.29339
+    "gbpusd": 1.29339,
+    "cny_per_usd": 7.2585,
+    "cny_per_eur": 7.871843,
+    "cny_per_jpy": 0.049388,
+    "cny_per_gbp": 9.388071,
+    "xauusd_cny_g": 673.26
   },
   {
     "date": "2025-03-11",
@@ -21,7 +31,12 @@
     "dxy": 103.475,
     "eurusd": 1.0912,
     "usdjpy": 148.02,
-    "gbpusd": 1.29329
+    "gbpusd": 1.29329,
+    "cny_per_usd": 7.2332,
+    "cny_per_eur": 7.892868,
+    "cny_per_jpy": 0.048866,
+    "cny_per_gbp": 9.354625,
+    "xauusd_cny_g": 678.48
   },
   {
     "date": "2025-03-12",
@@ -29,7 +44,12 @@
     "dxy": 103.715,
     "eurusd": 1.0886,
     "usdjpy": 149.03,
-    "gbpusd": 1.29475
+    "gbpusd": 1.29475,
+    "cny_per_usd": 7.2431,
+    "cny_per_eur": 7.884839,
+    "cny_per_jpy": 0.048602,
+    "cny_per_gbp": 9.378004,
+    "xauusd_cny_g": 684.21
   },
   {
     "date": "2025-03-13",
@@ -37,7 +57,12 @@
     "dxy": 104.032,
     "eurusd": 1.083,
     "usdjpy": 148.33,
-    "gbpusd": 1.29271
+    "gbpusd": 1.29271,
+    "cny_per_usd": 7.2477,
+    "cny_per_eur": 7.849259,
+    "cny_per_jpy": 0.048862,
+    "cny_per_gbp": 9.369174,
+    "xauusd_cny_g": 696.1
   },
   {
     "date": "2025-03-14",
@@ -45,7 +70,12 @@
     "dxy": 103.714,
     "eurusd": 1.0889,
     "usdjpy": 148.66,
-    "gbpusd": 1.29349
+    "gbpusd": 1.29349,
+    "cny_per_usd": 7.2387,
+    "cny_per_eur": 7.88222,
+    "cny_per_jpy": 0.048693,
+    "cny_per_gbp": 9.363186,
+    "xauusd_cny_g": 694.71
   },
   {
     "date": "2025-03-17",
@@ -53,7 +83,12 @@
     "dxy": 103.529,
     "eurusd": 1.0903,
     "usdjpy": 148.82,
-    "gbpusd": 1.29757
+    "gbpusd": 1.29757,
+    "cny_per_usd": 7.2337,
+    "cny_per_eur": 7.886903,
+    "cny_per_jpy": 0.048607,
+    "cny_per_gbp": 9.386232,
+    "xauusd_cny_g": 697.77
   },
   {
     "date": "2025-03-18",
@@ -61,7 +96,12 @@
     "dxy": 103.484,
     "eurusd": 1.0918,
     "usdjpy": 149.75,
-    "gbpusd": 1.29708
+    "gbpusd": 1.29708,
+    "cny_per_usd": 7.2272,
+    "cny_per_eur": 7.890657,
+    "cny_per_jpy": 0.048262,
+    "cny_per_gbp": 9.374257,
+    "xauusd_cny_g": 705.11
   },
   {
     "date": "2025-03-19",
@@ -69,7 +109,12 @@
     "dxy": 103.649,
     "eurusd": 1.0897,
     "usdjpy": 149.83,
-    "gbpusd": 1.29606
+    "gbpusd": 1.29606,
+    "cny_per_usd": 7.2301,
+    "cny_per_eur": 7.87864,
+    "cny_per_jpy": 0.048255,
+    "cny_per_gbp": 9.370643,
+    "xauusd_cny_g": 709.03
   },
   {
     "date": "2025-03-20",
@@ -77,7 +122,12 @@
     "dxy": 103.988,
     "eurusd": 1.08329,
     "usdjpy": 148.48,
-    "gbpusd": 1.29441
+    "gbpusd": 1.29441,
+    "cny_per_usd": 7.2446,
+    "cny_per_eur": 7.848003,
+    "cny_per_jpy": 0.048792,
+    "cny_per_gbp": 9.377483,
+    "xauusd_cny_g": 709.43
   },
   {
     "date": "2025-03-21",
@@ -85,7 +135,12 @@
     "dxy": 103.999,
     "eurusd": 1.0827,
     "usdjpy": 148.69,
-    "gbpusd": 1.29254
+    "gbpusd": 1.29254,
+    "cny_per_usd": 7.2483,
+    "cny_per_eur": 7.847734,
+    "cny_per_jpy": 0.048748,
+    "cny_per_gbp": 9.368718,
+    "xauusd_cny_g": 704.67
   },
   {
     "date": "2025-03-24",
@@ -93,7 +148,12 @@
     "dxy": 104.104,
     "eurusd": 1.0824,
     "usdjpy": 149.81,
-    "gbpusd": 1.29376
+    "gbpusd": 1.29376,
+    "cny_per_usd": 7.2536,
+    "cny_per_eur": 7.851297,
+    "cny_per_jpy": 0.048419,
+    "cny_per_gbp": 9.384418,
+    "xauusd_cny_g": 702.32
   },
   {
     "date": "2025-03-25",
@@ -101,7 +161,12 @@
     "dxy": 103.991,
     "eurusd": 1.0825,
     "usdjpy": 149.95,
-    "gbpusd": 1.2954
+    "gbpusd": 1.2954,
+    "cny_per_usd": 7.2583,
+    "cny_per_eur": 7.85711,
+    "cny_per_jpy": 0.048405,
+    "cny_per_gbp": 9.402402,
+    "xauusd_cny_g": 705.08
   },
   {
     "date": "2025-03-26",
@@ -109,7 +174,12 @@
     "dxy": 104.316,
     "eurusd": 1.0788,
     "usdjpy": 150.35,
-    "gbpusd": 1.29007
+    "gbpusd": 1.29007,
+    "cny_per_usd": 7.2656,
+    "cny_per_eur": 7.838129,
+    "cny_per_jpy": 0.048325,
+    "cny_per_gbp": 9.373133,
+    "xauusd_cny_g": 705.3
   },
   {
     "date": "2025-03-27",
@@ -117,7 +187,12 @@
     "dxy": 104.343,
     "eurusd": 1.0785,
     "usdjpy": 150.72,
-    "gbpusd": 1.29443
+    "gbpusd": 1.29443,
+    "cny_per_usd": 7.2657,
+    "cny_per_eur": 7.836057,
+    "cny_per_jpy": 0.048207,
+    "cny_per_gbp": 9.40494,
+    "xauusd_cny_g": 713.69
   },
   {
     "date": "2025-03-28",
@@ -125,7 +200,12 @@
     "dxy": 104.252,
     "eurusd": 1.0797,
     "usdjpy": 150.63,
-    "gbpusd": 1.29525
+    "gbpusd": 1.29525,
+    "cny_per_usd": 7.2654,
+    "cny_per_eur": 7.844452,
+    "cny_per_jpy": 0.048233,
+    "cny_per_gbp": 9.410509,
+    "xauusd_cny_g": 720.68
   },
   {
     "date": "2025-03-31",
@@ -133,7 +213,12 @@
     "dxy": 104.082,
     "eurusd": 1.0815,
     "usdjpy": 149.42,
-    "gbpusd": 1.29465
+    "gbpusd": 1.29465,
+    "cny_per_usd": 7.2531,
+    "cny_per_eur": 7.844228,
+    "cny_per_jpy": 0.048542,
+    "cny_per_gbp": 9.390226,
+    "xauusd_cny_g": 728.33
   },
   {
     "date": "2025-04-01",
@@ -141,7 +226,12 @@
     "dxy": 104.284,
     "eurusd": 1.0788,
     "usdjpy": 149.18,
-    "gbpusd": 1.28942
+    "gbpusd": 1.28942,
+    "cny_per_usd": 7.2702,
+    "cny_per_eur": 7.843092,
+    "cny_per_jpy": 0.048734,
+    "cny_per_gbp": 9.374341,
+    "xauusd_cny_g": 727.96
   },
   {
     "date": "2025-04-02",
@@ -149,7 +239,12 @@
     "dxy": 104.09,
     "eurusd": 1.0803,
     "usdjpy": 149.24,
-    "gbpusd": 1.29446
+    "gbpusd": 1.29446,
+    "cny_per_usd": 7.2692,
+    "cny_per_eur": 7.852917,
+    "cny_per_jpy": 0.048708,
+    "cny_per_gbp": 9.409689,
+    "xauusd_cny_g": 732.81
   },
   {
     "date": "2025-04-03",
@@ -157,7 +252,12 @@
     "dxy": 101.589,
     "eurusd": 1.10971,
     "usdjpy": 146.14,
-    "gbpusd": 1.31851
+    "gbpusd": 1.31851,
+    "cny_per_usd": 7.292,
+    "cny_per_eur": 8.092005,
+    "cny_per_jpy": 0.049897,
+    "cny_per_gbp": 9.614575,
+    "xauusd_cny_g": 730.23
   },
   {
     "date": "2025-04-04",
@@ -165,7 +265,12 @@
     "dxy": 102.021,
     "eurusd": 1.10571,
     "usdjpy": 145.21,
-    "gbpusd": 1.30105
+    "gbpusd": 1.30105,
+    "cny_per_usd": 7.2821,
+    "cny_per_eur": 8.051891,
+    "cny_per_jpy": 0.050149,
+    "cny_per_gbp": 9.474376,
+    "xauusd_cny_g": 710.89
   },
   {
     "date": "2025-04-07",
@@ -173,7 +278,12 @@
     "dxy": 102.953,
     "eurusd": 1.0967,
     "usdjpy": 146.42,
-    "gbpusd": 1.28138
+    "gbpusd": 1.28138,
+    "cny_per_usd": 7.3087,
+    "cny_per_eur": 8.015451,
+    "cny_per_jpy": 0.049916,
+    "cny_per_gbp": 9.365222,
+    "xauusd_cny_g": 701
   },
   {
     "date": "2025-04-08",
@@ -181,7 +291,12 @@
     "dxy": 102.988,
     "eurusd": 1.095,
     "usdjpy": 146.71,
-    "gbpusd": 1.27854
+    "gbpusd": 1.27854,
+    "cny_per_usd": 7.3387,
+    "cny_per_eur": 8.035877,
+    "cny_per_jpy": 0.050022,
+    "cny_per_gbp": 9.382821,
+    "xauusd_cny_g": 703.79
   },
   {
     "date": "2025-04-09",
@@ -189,7 +304,12 @@
     "dxy": 102.228,
     "eurusd": 1.1045,
     "usdjpy": 144.51,
-    "gbpusd": 1.27784
+    "gbpusd": 1.27784,
+    "cny_per_usd": 7.3498,
+    "cny_per_eur": 8.117854,
+    "cny_per_jpy": 0.05086,
+    "cny_per_gbp": 9.391868,
+    "xauusd_cny_g": 728.5
   },
   {
     "date": "2025-04-10",
@@ -197,7 +317,12 @@
     "dxy": 101.884,
     "eurusd": 1.10821,
     "usdjpy": 145.53,
-    "gbpusd": 1.29229
+    "gbpusd": 1.29229,
+    "cny_per_usd": 7.3215,
+    "cny_per_eur": 8.11376,
+    "cny_per_jpy": 0.050309,
+    "cny_per_gbp": 9.461501,
+    "xauusd_cny_g": 747.51
   },
   {
     "date": "2025-04-11",
@@ -205,7 +330,12 @@
     "dxy": 99.802,
     "eurusd": 1.1346,
     "usdjpy": 142.84,
-    "gbpusd": 1.30899
+    "gbpusd": 1.30899,
+    "cny_per_usd": 7.2994,
+    "cny_per_eur": 8.281899,
+    "cny_per_jpy": 0.051102,
+    "cny_per_gbp": 9.554842,
+    "xauusd_cny_g": 758.25
   },
   {
     "date": "2025-04-14",
@@ -213,7 +343,12 @@
     "dxy": 99.581,
     "eurusd": 1.1377,
     "usdjpy": 143.25,
-    "gbpusd": 1.31704
+    "gbpusd": 1.31704,
+    "cny_per_usd": 7.3126,
+    "cny_per_eur": 8.319545,
+    "cny_per_jpy": 0.051048,
+    "cny_per_gbp": 9.630987,
+    "xauusd_cny_g": 754.85
   },
   {
     "date": "2025-04-15",
@@ -221,7 +356,12 @@
     "dxy": 99.784,
     "eurusd": 1.1324,
     "usdjpy": 142.93,
-    "gbpusd": 1.32336
+    "gbpusd": 1.32336,
+    "cny_per_usd": 7.315,
+    "cny_per_eur": 8.283506,
+    "cny_per_jpy": 0.051179,
+    "cny_per_gbp": 9.680378,
+    "xauusd_cny_g": 759.66
   },
   {
     "date": "2025-04-16",
@@ -229,7 +369,12 @@
     "dxy": 99.636,
     "eurusd": 1.1355,
     "usdjpy": 142.75,
-    "gbpusd": 1.32624
+    "gbpusd": 1.32624,
+    "cny_per_usd": 7.3061,
+    "cny_per_eur": 8.296077,
+    "cny_per_jpy": 0.051181,
+    "cny_per_gbp": 9.689642,
+    "xauusd_cny_g": 785.27
   },
   {
     "date": "2025-04-17",
@@ -237,7 +382,12 @@
     "dxy": 99.563,
     "eurusd": 1.136,
     "usdjpy": 142.59,
-    "gbpusd": 1.32289
+    "gbpusd": 1.32289,
+    "cny_per_usd": 7.2975,
+    "cny_per_eur": 8.28996,
+    "cny_per_jpy": 0.051178,
+    "cny_per_gbp": 9.65379,
+    "xauusd_cny_g": 780.67
   },
   {
     "date": "2025-04-21",
@@ -245,7 +395,12 @@
     "dxy": null,
     "eurusd": null,
     "usdjpy": null,
-    "gbpusd": null
+    "gbpusd": null,
+    "cny_per_usd": null,
+    "cny_per_eur": null,
+    "cny_per_jpy": null,
+    "cny_per_gbp": null,
+    "xauusd_cny_g": null
   },
   {
     "date": "2025-04-22",
@@ -253,7 +408,12 @@
     "dxy": 98.512,
     "eurusd": 1.1476,
     "usdjpy": 140.34,
-    "gbpusd": 1.33663
+    "gbpusd": 1.33663,
+    "cny_per_usd": 7.3134,
+    "cny_per_eur": 8.392858,
+    "cny_per_jpy": 0.052112,
+    "cny_per_gbp": 9.77531,
+    "xauusd_cny_g": 795.02
   },
   {
     "date": "2025-04-23",
@@ -261,7 +421,12 @@
     "dxy": 99.058,
     "eurusd": 1.1415,
     "usdjpy": 141.64,
-    "gbpusd": 1.33053
+    "gbpusd": 1.33053,
+    "cny_per_usd": 7.2886,
+    "cny_per_eur": 8.319937,
+    "cny_per_jpy": 0.051459,
+    "cny_per_gbp": 9.697701,
+    "xauusd_cny_g": 770.57
   },
   {
     "date": "2025-04-24",
@@ -269,7 +434,12 @@
     "dxy": 99.379,
     "eurusd": 1.1376,
     "usdjpy": 142.55,
-    "gbpusd": 1.33053
+    "gbpusd": 1.33053,
+    "cny_per_usd": 7.2895,
+    "cny_per_eur": 8.292535,
+    "cny_per_jpy": 0.051136,
+    "cny_per_gbp": 9.698898,
+    "xauusd_cny_g": 785.02
   },
   {
     "date": "2025-04-25",
@@ -277,7 +447,12 @@
     "dxy": 99.609,
     "eurusd": 1.13571,
     "usdjpy": 143.35,
-    "gbpusd": 1.33126
+    "gbpusd": 1.33126,
+    "cny_per_usd": 7.2883,
+    "cny_per_eur": 8.277395,
+    "cny_per_jpy": 0.050843,
+    "cny_per_gbp": 9.702622,
+    "xauusd_cny_g": 774.44
   },
   {
     "date": "2025-04-28",
@@ -285,7 +460,12 @@
     "dxy": 99.569,
     "eurusd": 1.1358,
     "usdjpy": 143.34,
-    "gbpusd": 1.33404
+    "gbpusd": 1.33404,
+    "cny_per_usd": 7.298,
+    "cny_per_eur": 8.289068,
+    "cny_per_jpy": 0.050914,
+    "cny_per_gbp": 9.735824,
+    "xauusd_cny_g": 784.6
   },
   {
     "date": "2025-04-29",
@@ -293,7 +473,12 @@
     "dxy": 99.349,
     "eurusd": 1.13729,
     "usdjpy": 142.69,
-    "gbpusd": 1.33831
+    "gbpusd": 1.33831,
+    "cny_per_usd": 7.2729,
+    "cny_per_eur": 8.271396,
+    "cny_per_jpy": 0.05097,
+    "cny_per_gbp": 9.733395,
+    "xauusd_cny_g": 775.67
   },
   {
     "date": "2025-04-30",
@@ -301,7 +486,12 @@
     "dxy": 99.402,
     "eurusd": 1.13729,
     "usdjpy": 143.04,
-    "gbpusd": 1.33517
+    "gbpusd": 1.33517,
+    "cny_per_usd": 7.2659,
+    "cny_per_eur": 8.263435,
+    "cny_per_jpy": 0.050796,
+    "cny_per_gbp": 9.701212,
+    "xauusd_cny_g": 768.18
   },
   {
     "date": "2025-05-01",
@@ -309,7 +499,12 @@
     "dxy": null,
     "eurusd": null,
     "usdjpy": null,
-    "gbpusd": null
+    "gbpusd": null,
+    "cny_per_usd": null,
+    "cny_per_eur": null,
+    "cny_per_jpy": null,
+    "cny_per_gbp": null,
+    "xauusd_cny_g": null
   },
   {
     "date": "2025-05-02",
@@ -317,7 +512,12 @@
     "dxy": 99.728,
     "eurusd": 1.1343,
     "usdjpy": 144.52,
-    "gbpusd": 1.32931
+    "gbpusd": 1.32931,
+    "cny_per_usd": 7.2714,
+    "cny_per_eur": 8.247949,
+    "cny_per_jpy": 0.050314,
+    "cny_per_gbp": 9.665945,
+    "xauusd_cny_g": 755.97
   },
   {
     "date": "2025-05-05",
@@ -325,7 +525,12 @@
     "dxy": 99.63,
     "eurusd": 1.1343,
     "usdjpy": 143.87,
-    "gbpusd": 1.33213
+    "gbpusd": 1.33213,
+    "cny_per_usd": 7.2714,
+    "cny_per_eur": 8.247949,
+    "cny_per_jpy": 0.050541,
+    "cny_per_gbp": 9.68645,
+    "xauusd_cny_g": 779.4
   },
   {
     "date": "2025-05-06",
@@ -333,7 +538,12 @@
     "dxy": 99.558,
     "eurusd": 1.1325,
     "usdjpy": 142.73,
-    "gbpusd": 1.33724
+    "gbpusd": 1.33724,
+    "cny_per_usd": 7.2172,
+    "cny_per_eur": 8.173479,
+    "cny_per_jpy": 0.050565,
+    "cny_per_gbp": 9.651129,
+    "xauusd_cny_g": 796.3
   },
   {
     "date": "2025-05-07",
@@ -341,7 +551,12 @@
     "dxy": 99.454,
     "eurusd": 1.136,
     "usdjpy": 143.39,
-    "gbpusd": 1.33474
+    "gbpusd": 1.33474,
+    "cny_per_usd": 7.2253,
+    "cny_per_eur": 8.207941,
+    "cny_per_jpy": 0.050389,
+    "cny_per_gbp": 9.643897,
+    "xauusd_cny_g": 781.57
   },
   {
     "date": "2025-05-08",
@@ -349,7 +564,12 @@
     "dxy": 100.005,
     "eurusd": 1.1297,
     "usdjpy": 144.68,
-    "gbpusd": 1.33282
+    "gbpusd": 1.33282,
+    "cny_per_usd": 7.2377,
+    "cny_per_eur": 8.17643,
+    "cny_per_jpy": 0.050026,
+    "cny_per_gbp": 9.646551,
+    "xauusd_cny_g": 769.18
   },
   {
     "date": "2025-05-09",
@@ -357,7 +577,12 @@
     "dxy": 100.395,
     "eurusd": 1.1252,
     "usdjpy": 145.18,
-    "gbpusd": 1.32735
+    "gbpusd": 1.32735,
+    "cny_per_usd": 7.2405,
+    "cny_per_eur": 8.147011,
+    "cny_per_jpy": 0.049873,
+    "cny_per_gbp": 9.610678,
+    "xauusd_cny_g": 774.94
   },
   {
     "date": "2025-05-12",
@@ -365,7 +590,12 @@
     "dxy": 101.656,
     "eurusd": 1.11061,
     "usdjpy": 148.08,
-    "gbpusd": 1.31759
+    "gbpusd": 1.31759,
+    "cny_per_usd": 7.2032,
+    "cny_per_eur": 7.999946,
+    "cny_per_jpy": 0.048644,
+    "cny_per_gbp": 9.490864,
+    "xauusd_cny_g": 749.4
   },
   {
     "date": "2025-05-13",
@@ -373,7 +603,12 @@
     "dxy": 101.567,
     "eurusd": 1.1112,
     "usdjpy": 148.14,
-    "gbpusd": 1.32191
+    "gbpusd": 1.32191,
+    "cny_per_usd": 7.2013,
+    "cny_per_eur": 8.002085,
+    "cny_per_jpy": 0.048611,
+    "cny_per_gbp": 9.51947,
+    "xauusd_cny_g": 752.51
   },
   {
     "date": "2025-05-14",
@@ -381,7 +616,12 @@
     "dxy": 100.675,
     "eurusd": 1.1214,
     "usdjpy": 146.25,
-    "gbpusd": 1.33262
+    "gbpusd": 1.33262,
+    "cny_per_usd": 7.2047,
+    "cny_per_eur": 8.079351,
+    "cny_per_jpy": 0.049263,
+    "cny_per_gbp": 9.601127,
+    "xauusd_cny_g": 736.03
   },
   {
     "date": "2025-05-15",
@@ -389,7 +629,12 @@
     "dxy": 100.905,
     "eurusd": 1.11851,
     "usdjpy": 146,
-    "gbpusd": 1.32776
+    "gbpusd": 1.32776,
+    "cny_per_usd": 7.2115,
+    "cny_per_eur": 8.066135,
+    "cny_per_jpy": 0.049394,
+    "cny_per_gbp": 9.575141,
+    "xauusd_cny_g": 751.17
   },
   {
     "date": "2025-05-16",
@@ -397,7 +642,12 @@
     "dxy": 100.824,
     "eurusd": 1.11939,
     "usdjpy": 145.66,
-    "gbpusd": 1.32836
+    "gbpusd": 1.32836,
+    "cny_per_usd": 7.2056,
+    "cny_per_eur": 8.065877,
+    "cny_per_jpy": 0.049469,
+    "cny_per_gbp": 9.571631,
+    "xauusd_cny_g": 739.58
   },
   {
     "date": "2025-05-19",
@@ -405,7 +655,12 @@
     "dxy": 100.254,
     "eurusd": 1.1262,
     "usdjpy": 144.97,
-    "gbpusd": 1.33769
+    "gbpusd": 1.33769,
+    "cny_per_usd": 7.2123,
+    "cny_per_eur": 8.122492,
+    "cny_per_jpy": 0.04975,
+    "cny_per_gbp": 9.647822,
+    "xauusd_cny_g": 748.92
   },
   {
     "date": "2025-05-20",
@@ -413,7 +668,12 @@
     "dxy": 100.351,
     "eurusd": 1.1241,
     "usdjpy": 144.64,
-    "gbpusd": 1.33535
+    "gbpusd": 1.33535,
+    "cny_per_usd": 7.2195,
+    "cny_per_eur": 8.11544,
+    "cny_per_jpy": 0.049914,
+    "cny_per_gbp": 9.640559,
+    "xauusd_cny_g": 763.65
   },
   {
     "date": "2025-05-21",
@@ -421,7 +681,12 @@
     "dxy": 99.697,
     "eurusd": 1.13211,
     "usdjpy": 143.77,
-    "gbpusd": 1.34039
+    "gbpusd": 1.34039,
+    "cny_per_usd": 7.2034,
+    "cny_per_eur": 8.155041,
+    "cny_per_jpy": 0.050104,
+    "cny_per_gbp": 9.655365,
+    "xauusd_cny_g": 767.84
   },
   {
     "date": "2025-05-22",
@@ -429,7 +694,12 @@
     "dxy": 99.703,
     "eurusd": 1.1309,
     "usdjpy": 143.42,
-    "gbpusd": 1.34199
+    "gbpusd": 1.34199,
+    "cny_per_usd": 7.2046,
+    "cny_per_eur": 8.147682,
+    "cny_per_jpy": 0.050234,
+    "cny_per_gbp": 9.668501,
+    "xauusd_cny_g": 763.17
   },
   {
     "date": "2025-05-23",
@@ -437,7 +707,12 @@
     "dxy": 99.57,
     "eurusd": 1.1301,
     "usdjpy": 142.58,
-    "gbpusd": 1.34825
+    "gbpusd": 1.34825,
+    "cny_per_usd": 7.1849,
+    "cny_per_eur": 8.119655,
+    "cny_per_jpy": 0.050392,
+    "cny_per_gbp": 9.687041,
+    "xauusd_cny_g": 776.37
   },
   {
     "date": "2025-05-26",
@@ -445,7 +720,12 @@
     "dxy": 99.021,
     "eurusd": 1.1381,
     "usdjpy": 142.9,
-    "gbpusd": 1.35617
+    "gbpusd": 1.35617,
+    "cny_per_usd": 7.187,
+    "cny_per_eur": 8.179525,
+    "cny_per_jpy": 0.050294,
+    "cny_per_gbp": 9.746794,
+    "xauusd_cny_g": 772.29
   },
   {
     "date": "2025-05-27",
@@ -453,7 +733,12 @@
     "dxy": 99.358,
     "eurusd": 1.1356,
     "usdjpy": 144.17,
-    "gbpusd": 1.35498
+    "gbpusd": 1.35498,
+    "cny_per_usd": 7.1952,
+    "cny_per_eur": 8.170869,
+    "cny_per_jpy": 0.049908,
+    "cny_per_gbp": 9.749352,
+    "xauusd_cny_g": 763.55
   },
   {
     "date": "2025-05-28",
@@ -461,7 +746,12 @@
     "dxy": 99.695,
     "eurusd": 1.1317,
     "usdjpy": 144.41,
-    "gbpusd": 1.34758
+    "gbpusd": 1.34758,
+    "cny_per_usd": 7.1929,
+    "cny_per_eur": 8.140205,
+    "cny_per_jpy": 0.049809,
+    "cny_per_gbp": 9.693008,
+    "xauusd_cny_g": 760.26
   },
   {
     "date": "2025-05-29",
@@ -469,7 +759,12 @@
     "dxy": 99.943,
     "eurusd": 1.1281,
     "usdjpy": 144.91,
-    "gbpusd": 1.34666
+    "gbpusd": 1.34666,
+    "cny_per_usd": 7.1885,
+    "cny_per_eur": 8.109347,
+    "cny_per_jpy": 0.049607,
+    "cny_per_gbp": 9.680465,
+    "xauusd_cny_g": 766.78
   },
   {
     "date": "2025-05-30",
@@ -477,7 +772,12 @@
     "dxy": 99.477,
     "eurusd": 1.1339,
     "usdjpy": 143.72,
-    "gbpusd": 1.34796
+    "gbpusd": 1.34796,
+    "cny_per_usd": 7.1943,
+    "cny_per_eur": 8.157617,
+    "cny_per_jpy": 0.050058,
+    "cny_per_gbp": 9.697629,
+    "xauusd_cny_g": 762.12
   },
   {
     "date": "2025-06-02",
@@ -485,7 +785,12 @@
     "dxy": 98.796,
     "eurusd": 1.1419,
     "usdjpy": 142.73,
-    "gbpusd": 1.35393
+    "gbpusd": 1.35393,
+    "cny_per_usd": 7.1998,
+    "cny_per_eur": 8.221452,
+    "cny_per_jpy": 0.050443,
+    "cny_per_gbp": 9.748025,
+    "xauusd_cny_g": 782.77
   },
   {
     "date": "2025-06-03",
@@ -493,7 +798,12 @@
     "dxy": 99.122,
     "eurusd": 1.1386,
     "usdjpy": 143.16,
-    "gbpusd": 1.34969
+    "gbpusd": 1.34969,
+    "cny_per_usd": 7.1879,
+    "cny_per_eur": 8.184143,
+    "cny_per_jpy": 0.050209,
+    "cny_per_gbp": 9.701437,
+    "xauusd_cny_g": 774.97
   },
   {
     "date": "2025-06-04",
@@ -501,7 +811,12 @@
     "dxy": 99.202,
     "eurusd": 1.13839,
     "usdjpy": 144.19,
-    "gbpusd": 1.35186
+    "gbpusd": 1.35186,
+    "cny_per_usd": 7.1886,
+    "cny_per_eur": 8.18343,
+    "cny_per_jpy": 0.049855,
+    "cny_per_gbp": 9.717981,
+    "xauusd_cny_g": 779.49
   },
   {
     "date": "2025-06-05",
@@ -509,7 +824,12 @@
     "dxy": 98.818,
     "eurusd": 1.1423,
     "usdjpy": 143.27,
-    "gbpusd": 1.35682
+    "gbpusd": 1.35682,
+    "cny_per_usd": 7.1792,
+    "cny_per_eur": 8.2008,
+    "cny_per_jpy": 0.05011,
+    "cny_per_gbp": 9.740882,
+    "xauusd_cny_g": 773.89
   },
   {
     "date": "2025-06-06",
@@ -517,7 +837,12 @@
     "dxy": 99.039,
     "eurusd": 1.1411,
     "usdjpy": 144.26,
-    "gbpusd": 1.35426
+    "gbpusd": 1.35426,
+    "cny_per_usd": 7.1821,
+    "cny_per_eur": 8.195494,
+    "cny_per_jpy": 0.049786,
+    "cny_per_gbp": 9.726431,
+    "xauusd_cny_g": 764.87
   },
   {
     "date": "2025-06-09",
@@ -525,7 +850,12 @@
     "dxy": 99.055,
     "eurusd": 1.14101,
     "usdjpy": 144.5,
-    "gbpusd": 1.35446
+    "gbpusd": 1.35446,
+    "cny_per_usd": 7.1817,
+    "cny_per_eur": 8.194392,
+    "cny_per_jpy": 0.0497,
+    "cny_per_gbp": 9.727325,
+    "xauusd_cny_g": 767.88
   },
   {
     "date": "2025-06-10",
@@ -533,7 +863,12 @@
     "dxy": 98.993,
     "eurusd": 1.1429,
     "usdjpy": 144.57,
-    "gbpusd": 1.35031
+    "gbpusd": 1.35031,
+    "cny_per_usd": 7.1848,
+    "cny_per_eur": 8.211508,
+    "cny_per_jpy": 0.049698,
+    "cny_per_gbp": 9.701707,
+    "xauusd_cny_g": 767.65
   },
   {
     "date": "2025-06-11",
@@ -541,7 +876,12 @@
     "dxy": 99.072,
     "eurusd": 1.1433,
     "usdjpy": 145.34,
-    "gbpusd": 1.34887
+    "gbpusd": 1.34887,
+    "cny_per_usd": 7.1873,
+    "cny_per_eur": 8.21724,
+    "cny_per_jpy": 0.049452,
+    "cny_per_gbp": 9.694733,
+    "xauusd_cny_g": 775.28
   },
   {
     "date": "2025-06-12",
@@ -549,7 +889,12 @@
     "dxy": 97.9,
     "eurusd": 1.15939,
     "usdjpy": 143.73,
-    "gbpusd": 1.35792
+    "gbpusd": 1.35792,
+    "cny_per_usd": 7.1762,
+    "cny_per_eur": 8.320015,
+    "cny_per_jpy": 0.049928,
+    "cny_per_gbp": 9.744706,
+    "xauusd_cny_g": 781.19
   },
   {
     "date": "2025-06-13",
@@ -557,7 +902,12 @@
     "dxy": 98.413,
     "eurusd": 1.1512,
     "usdjpy": 144.15,
-    "gbpusd": 1.35356
+    "gbpusd": 1.35356,
+    "cny_per_usd": 7.1822,
+    "cny_per_eur": 8.268149,
+    "cny_per_jpy": 0.049824,
+    "cny_per_gbp": 9.721539,
+    "xauusd_cny_g": 792.62
   },
   {
     "date": "2025-06-16",
@@ -565,7 +915,12 @@
     "dxy": 98.005,
     "eurusd": 1.15739,
     "usdjpy": 144.19,
-    "gbpusd": 1.35798
+    "gbpusd": 1.35798,
+    "cny_per_usd": 7.1801,
+    "cny_per_eur": 8.310176,
+    "cny_per_jpy": 0.049796,
+    "cny_per_gbp": 9.750432,
+    "xauusd_cny_g": 781.47
   },
   {
     "date": "2025-06-17",
@@ -573,7 +928,12 @@
     "dxy": 98.088,
     "eurusd": 1.1568,
     "usdjpy": 144.67,
-    "gbpusd": 1.35694
+    "gbpusd": 1.35694,
+    "cny_per_usd": 7.1828,
+    "cny_per_eur": 8.309063,
+    "cny_per_jpy": 0.04965,
+    "cny_per_gbp": 9.746629,
+    "xauusd_cny_g": 782.54
   },
   {
     "date": "2025-06-18",
@@ -581,7 +941,12 @@
     "dxy": 98.625,
     "eurusd": 1.1508,
     "usdjpy": 144.83,
-    "gbpusd": 1.34564
+    "gbpusd": 1.34564,
+    "cny_per_usd": 7.1883,
+    "cny_per_eur": 8.272296,
+    "cny_per_jpy": 0.049633,
+    "cny_per_gbp": 9.672864,
+    "xauusd_cny_g": 778.7
   },
   {
     "date": "2025-06-19",
@@ -589,7 +954,12 @@
     "dxy": 98.932,
     "eurusd": 1.1478,
     "usdjpy": 145.67,
-    "gbpusd": 1.34387
+    "gbpusd": 1.34387,
+    "cny_per_usd": 7.1873,
+    "cny_per_eur": 8.249583,
+    "cny_per_jpy": 0.04934,
+    "cny_per_gbp": 9.658797,
+    "xauusd_cny_g": 778.88
   },
   {
     "date": "2025-06-20",
@@ -597,7 +967,12 @@
     "dxy": 98.71,
     "eurusd": 1.1515,
     "usdjpy": 145.61,
-    "gbpusd": 1.34884
+    "gbpusd": 1.34884,
+    "cny_per_usd": 7.177,
+    "cny_per_eur": 8.264315,
+    "cny_per_jpy": 0.049289,
+    "cny_per_gbp": 9.680625,
+    "xauusd_cny_g": 776.57
   },
   {
     "date": "2025-06-23",
@@ -605,7 +980,12 @@
     "dxy": 99.268,
     "eurusd": 1.1472,
     "usdjpy": 147.55,
-    "gbpusd": 1.3391
+    "gbpusd": 1.3391,
+    "cny_per_usd": 7.1864,
+    "cny_per_eur": 8.244238,
+    "cny_per_jpy": 0.048705,
+    "cny_per_gbp": 9.623308,
+    "xauusd_cny_g": 778.35
   },
   {
     "date": "2025-06-24",
@@ -613,7 +993,12 @@
     "dxy": 97.997,
     "eurusd": 1.1607,
     "usdjpy": 144.97,
-    "gbpusd": 1.36121
+    "gbpusd": 1.36121,
+    "cny_per_usd": 7.1734,
+    "cny_per_eur": 8.326165,
+    "cny_per_jpy": 0.049482,
+    "cny_per_gbp": 9.764504,
+    "xauusd_cny_g": 766.62
   },
   {
     "date": "2025-06-25",
@@ -621,7 +1006,12 @@
     "dxy": 98.132,
     "eurusd": 1.1598,
     "usdjpy": 145.78,
-    "gbpusd": 1.3603
+    "gbpusd": 1.3603,
+    "cny_per_usd": 7.1745,
+    "cny_per_eur": 8.320985,
+    "cny_per_jpy": 0.049215,
+    "cny_per_gbp": 9.759472,
+    "xauusd_cny_g": 768.65
   },
   {
     "date": "2025-06-26",
@@ -629,7 +1019,12 @@
     "dxy": 97.381,
     "eurusd": 1.16949,
     "usdjpy": 144.44,
-    "gbpusd": 1.37024
+    "gbpusd": 1.37024,
+    "cny_per_usd": 7.1708,
+    "cny_per_eur": 8.386179,
+    "cny_per_jpy": 0.049646,
+    "cny_per_gbp": 9.825717,
+    "xauusd_cny_g": 767.24
   },
   {
     "date": "2025-06-27",
@@ -637,7 +1032,12 @@
     "dxy": 97.308,
     "eurusd": 1.1704,
     "usdjpy": 144.6,
-    "gbpusd": 1.37225
+    "gbpusd": 1.37225,
+    "cny_per_usd": 7.1718,
+    "cny_per_eur": 8.393875,
+    "cny_per_jpy": 0.049598,
+    "cny_per_gbp": 9.841503,
+    "xauusd_cny_g": 754.26
   },
   {
     "date": "2025-06-30",
@@ -645,7 +1045,12 @@
     "dxy": 97.238,
     "eurusd": 1.172,
     "usdjpy": 144.34,
-    "gbpusd": 1.36996
+    "gbpusd": 1.36996,
+    "cny_per_usd": 7.1647,
+    "cny_per_eur": 8.397028,
+    "cny_per_jpy": 0.049638,
+    "cny_per_gbp": 9.815352,
+    "xauusd_cny_g": 760.86
   },
   {
     "date": "2025-07-01",
@@ -653,7 +1058,12 @@
     "dxy": 96.528,
     "eurusd": 1.181,
     "usdjpy": 142.85,
-    "gbpusd": 1.37518
+    "gbpusd": 1.37518,
+    "cny_per_usd": 7.1621,
+    "cny_per_eur": 8.45844,
+    "cny_per_jpy": 0.050137,
+    "cny_per_gbp": 9.849177,
+    "xauusd_cny_g": 768.75
   },
   {
     "date": "2025-07-02",
@@ -661,7 +1071,12 @@
     "dxy": 97.059,
     "eurusd": 1.1755,
     "usdjpy": 144.15,
-    "gbpusd": 1.36606
+    "gbpusd": 1.36606,
+    "cny_per_usd": 7.1693,
+    "cny_per_eur": 8.427512,
+    "cny_per_jpy": 0.049735,
+    "cny_per_gbp": 9.793694,
+    "xauusd_cny_g": 773.94
   },
   {
     "date": "2025-07-03",
@@ -669,7 +1084,12 @@
     "dxy": 96.888,
     "eurusd": 1.1782,
     "usdjpy": 143.93,
-    "gbpusd": 1.36539
+    "gbpusd": 1.36539,
+    "cny_per_usd": 7.1615,
+    "cny_per_eur": 8.437679,
+    "cny_per_jpy": 0.049757,
+    "cny_per_gbp": 9.77824,
+    "xauusd_cny_g": 765.83
   },
   {
     "date": "2025-07-04",
@@ -677,7 +1097,12 @@
     "dxy": 97.022,
     "eurusd": 1.17671,
     "usdjpy": 144.4,
-    "gbpusd": 1.36429
+    "gbpusd": 1.36429,
+    "cny_per_usd": 7.1628,
+    "cny_per_eur": 8.428538,
+    "cny_per_jpy": 0.049604,
+    "cny_per_gbp": 9.772136,
+    "xauusd_cny_g": 768.55
   },
   {
     "date": "2025-07-07",
@@ -685,7 +1110,12 @@
     "dxy": 97.371,
     "eurusd": 1.1728,
     "usdjpy": 145.56,
-    "gbpusd": 1.36197
+    "gbpusd": 1.36197,
+    "cny_per_usd": 7.1733,
+    "cny_per_eur": 8.412846,
+    "cny_per_jpy": 0.049281,
+    "cny_per_gbp": 9.769819,
+    "xauusd_cny_g": 769.6
   },
   {
     "date": "2025-07-08",
@@ -693,7 +1123,12 @@
     "dxy": 97.554,
     "eurusd": 1.1718,
     "usdjpy": 146.53,
-    "gbpusd": 1.35752
+    "gbpusd": 1.35752,
+    "cny_per_usd": 7.1741,
+    "cny_per_eur": 8.40661,
+    "cny_per_jpy": 0.04896,
+    "cny_per_gbp": 9.738984,
+    "xauusd_cny_g": 761.53
   },
   {
     "date": "2025-07-09",
@@ -701,7 +1136,12 @@
     "dxy": 97.692,
     "eurusd": 1.1698,
     "usdjpy": 146.72,
-    "gbpusd": 1.35818
+    "gbpusd": 1.35818,
+    "cny_per_usd": 7.1801,
+    "cny_per_eur": 8.399281,
+    "cny_per_jpy": 0.048937,
+    "cny_per_gbp": 9.751868,
+    "xauusd_cny_g": 764.95
   },
   {
     "date": "2025-07-10",
@@ -709,7 +1149,12 @@
     "dxy": 97.587,
     "eurusd": 1.17091,
     "usdjpy": 146.32,
-    "gbpusd": 1.35726
+    "gbpusd": 1.35726,
+    "cny_per_usd": 7.1748,
+    "cny_per_eur": 8.401045,
+    "cny_per_jpy": 0.049035,
+    "cny_per_gbp": 9.738069,
+    "xauusd_cny_g": 766.78
   },
   {
     "date": "2025-07-11",
@@ -717,7 +1162,12 @@
     "dxy": 97.865,
     "eurusd": 1.16831,
     "usdjpy": 147.06,
-    "gbpusd": 1.34955
+    "gbpusd": 1.34955,
+    "cny_per_usd": 7.1678,
+    "cny_per_eur": 8.374212,
+    "cny_per_jpy": 0.048741,
+    "cny_per_gbp": 9.673304,
+    "xauusd_cny_g": 773.49
   },
   {
     "date": "2025-07-14",
@@ -725,7 +1175,12 @@
     "dxy": 97.863,
     "eurusd": 1.169,
     "usdjpy": 147.37,
-    "gbpusd": 1.3488
+    "gbpusd": 1.3488,
+    "cny_per_usd": 7.1672,
+    "cny_per_eur": 8.378457,
+    "cny_per_jpy": 0.048634,
+    "cny_per_gbp": 9.667119,
+    "xauusd_cny_g": 770.45
   },
   {
     "date": "2025-07-15",
@@ -733,7 +1188,12 @@
     "dxy": 98.128,
     "eurusd": 1.16649,
     "usdjpy": 147.95,
-    "gbpusd": 1.34405
+    "gbpusd": 1.34405,
+    "cny_per_usd": 7.173,
+    "cny_per_eur": 8.367233,
+    "cny_per_jpy": 0.048483,
+    "cny_per_gbp": 9.640871,
+    "xauusd_cny_g": 766.57
   },
   {
     "date": "2025-07-16",
@@ -741,7 +1201,12 @@
     "dxy": 98.632,
     "eurusd": 1.1602,
     "usdjpy": 148.73,
-    "gbpusd": 1.33987
+    "gbpusd": 1.33987,
+    "cny_per_usd": 7.1806,
+    "cny_per_eur": 8.330932,
+    "cny_per_jpy": 0.048279,
+    "cny_per_gbp": 9.621071,
+    "xauusd_cny_g": 772.83
   },
   {
     "date": "2025-07-17",
@@ -749,7 +1214,12 @@
     "dxy": 98.79,
     "eurusd": 1.1579,
     "usdjpy": 148.79,
-    "gbpusd": 1.33955
+    "gbpusd": 1.33955,
+    "cny_per_usd": 7.1817,
+    "cny_per_eur": 8.31569,
+    "cny_per_jpy": 0.048267,
+    "cny_per_gbp": 9.620246,
+    "xauusd_cny_g": 771.01
   },
   {
     "date": "2025-07-18",
@@ -757,7 +1227,12 @@
     "dxy": 98.259,
     "eurusd": 1.165,
     "usdjpy": 148.45,
-    "gbpusd": 1.3459
+    "gbpusd": 1.3459,
+    "cny_per_usd": 7.1779,
+    "cny_per_eur": 8.362254,
+    "cny_per_jpy": 0.048352,
+    "cny_per_gbp": 9.660736,
+    "xauusd_cny_g": 772.7
   },
   {
     "date": "2025-07-21",
@@ -765,7 +1240,12 @@
     "dxy": 98.034,
     "eurusd": 1.1667,
     "usdjpy": 147.44,
-    "gbpusd": 1.34785
+    "gbpusd": 1.34785,
+    "cny_per_usd": 7.1763,
+    "cny_per_eur": 8.372589,
+    "cny_per_jpy": 0.048673,
+    "cny_per_gbp": 9.672576,
+    "xauusd_cny_g": 783.8
   },
   {
     "date": "2025-07-22",
@@ -773,7 +1253,12 @@
     "dxy": 97.805,
     "eurusd": 1.16991,
     "usdjpy": 147.17,
-    "gbpusd": 1.34858
+    "gbpusd": 1.34858,
+    "cny_per_usd": 7.175,
+    "cny_per_eur": 8.394104,
+    "cny_per_jpy": 0.048753,
+    "cny_per_gbp": 9.676061,
+    "xauusd_cny_g": 791.64
   },
   {
     "date": "2025-07-23",
@@ -781,7 +1266,12 @@
     "dxy": 97.456,
     "eurusd": 1.17259,
     "usdjpy": 146.28,
-    "gbpusd": 1.35325
+    "gbpusd": 1.35325,
+    "cny_per_usd": 7.1602,
+    "cny_per_eur": 8.395979,
+    "cny_per_jpy": 0.048949,
+    "cny_per_gbp": 9.689541,
+    "xauusd_cny_g": 779.77
   },
   {
     "date": "2025-07-24",
@@ -789,7 +1279,12 @@
     "dxy": 97.34,
     "eurusd": 1.1756,
     "usdjpy": 146.5,
-    "gbpusd": 1.35516
+    "gbpusd": 1.35516,
+    "cny_per_usd": 7.1574,
+    "cny_per_eur": 8.414239,
+    "cny_per_jpy": 0.048856,
+    "cny_per_gbp": 9.699422,
+    "xauusd_cny_g": 775.17
   },
   {
     "date": "2025-07-25",
@@ -797,7 +1292,12 @@
     "dxy": 97.735,
     "eurusd": 1.1724,
     "usdjpy": 147.65,
-    "gbpusd": 1.34526
+    "gbpusd": 1.34526,
+    "cny_per_usd": 7.1687,
+    "cny_per_eur": 8.404584,
+    "cny_per_jpy": 0.048552,
+    "cny_per_gbp": 9.643765,
+    "xauusd_cny_g": 769.23
   },
   {
     "date": "2025-07-28",
@@ -805,7 +1305,12 @@
     "dxy": 98.207,
     "eurusd": 1.16541,
     "usdjpy": 148.15,
-    "gbpusd": 1.34279
+    "gbpusd": 1.34279,
+    "cny_per_usd": 7.1739,
+    "cny_per_eur": 8.360535,
+    "cny_per_jpy": 0.048423,
+    "cny_per_gbp": 9.633041,
+    "xauusd_cny_g": 764.51
   },
   {
     "date": "2025-07-29",
@@ -813,7 +1318,12 @@
     "dxy": 99.044,
     "eurusd": 1.1533,
     "usdjpy": 148.77,
-    "gbpusd": 1.3333
+    "gbpusd": 1.3333,
+    "cny_per_usd": 7.1775,
+    "cny_per_eur": 8.277811,
+    "cny_per_jpy": 0.048246,
+    "cny_per_gbp": 9.569761,
+    "xauusd_cny_g": 767.66
   },
   {
     "date": "2025-07-30",
@@ -821,7 +1331,12 @@
     "dxy": 99.01,
     "eurusd": 1.1527,
     "usdjpy": 148.31,
-    "gbpusd": 1.33693
+    "gbpusd": 1.33693,
+    "cny_per_usd": 7.1817,
+    "cny_per_eur": 8.278346,
+    "cny_per_jpy": 0.048424,
+    "cny_per_gbp": 9.60143,
+    "xauusd_cny_g": 756.31
   },
   {
     "date": "2025-07-31",
@@ -829,7 +1344,12 @@
     "dxy": 99.76,
     "eurusd": 1.1446,
     "usdjpy": 149.85,
-    "gbpusd": 1.32338
+    "gbpusd": 1.32338,
+    "cny_per_usd": 7.1947,
+    "cny_per_eur": 8.235054,
+    "cny_per_jpy": 0.048013,
+    "cny_per_gbp": 9.521322,
+    "xauusd_cny_g": 761.02
   },
   {
     "date": "2025-08-01",
@@ -837,7 +1357,12 @@
     "dxy": 100.168,
     "eurusd": 1.14039,
     "usdjpy": 150.48,
-    "gbpusd": 1.3161
+    "gbpusd": 1.3161,
+    "cny_per_usd": 7.2118,
+    "cny_per_eur": 8.224265,
+    "cny_per_jpy": 0.047925,
+    "cny_per_gbp": 9.49145,
+    "xauusd_cny_g": 778.39
   },
   {
     "date": "2025-08-04",
@@ -845,7 +1370,12 @@
     "dxy": 98.806,
     "eurusd": 1.1565,
     "usdjpy": 147.38,
-    "gbpusd": 1.32869
+    "gbpusd": 1.32869,
+    "cny_per_usd": 7.1762,
+    "cny_per_eur": 8.299275,
+    "cny_per_jpy": 0.048692,
+    "cny_per_gbp": 9.534945,
+    "xauusd_cny_g": 778.38
   },
   {
     "date": "2025-08-05",
@@ -853,7 +1383,12 @@
     "dxy": 98.945,
     "eurusd": 1.1546,
     "usdjpy": 147.6,
-    "gbpusd": 1.3282
+    "gbpusd": 1.3282,
+    "cny_per_usd": 7.1874,
+    "cny_per_eur": 8.298572,
+    "cny_per_jpy": 0.048695,
+    "cny_per_gbp": 9.546305,
+    "xauusd_cny_g": 781.26
   },
   {
     "date": "2025-08-06",
@@ -861,7 +1396,12 @@
     "dxy": 98.584,
     "eurusd": 1.1604,
     "usdjpy": 147.55,
-    "gbpusd": 1.33119
+    "gbpusd": 1.33119,
+    "cny_per_usd": 7.1857,
+    "cny_per_eur": 8.338286,
+    "cny_per_jpy": 0.0487,
+    "cny_per_gbp": 9.565532,
+    "xauusd_cny_g": 778.41
   },
   {
     "date": "2025-08-07",
@@ -869,7 +1409,12 @@
     "dxy": 98.26,
     "eurusd": 1.16429,
     "usdjpy": 147.38,
-    "gbpusd": 1.34244
+    "gbpusd": 1.34244,
+    "cny_per_usd": 7.1792,
+    "cny_per_eur": 8.358671,
+    "cny_per_jpy": 0.048712,
+    "cny_per_gbp": 9.637645,
+    "xauusd_cny_g": 784.26
   },
   {
     "date": "2025-08-08",
@@ -877,7 +1422,12 @@
     "dxy": 98.254,
     "eurusd": 1.1648,
     "usdjpy": 147.82,
-    "gbpusd": 1.34333
+    "gbpusd": 1.34333,
+    "cny_per_usd": 7.1838,
+    "cny_per_eur": 8.36769,
+    "cny_per_jpy": 0.048598,
+    "cny_per_gbp": 9.650214,
+    "xauusd_cny_g": 784.94
   },
   {
     "date": "2025-08-11",
@@ -885,7 +1435,12 @@
     "dxy": 98.447,
     "eurusd": 1.1622,
     "usdjpy": 147.87,
-    "gbpusd": 1.34266
+    "gbpusd": 1.34266,
+    "cny_per_usd": 7.1846,
+    "cny_per_eur": 8.349942,
+    "cny_per_jpy": 0.048587,
+    "cny_per_gbp": 9.646475,
+    "xauusd_cny_g": 772.11
   },
   {
     "date": "2025-08-12",
@@ -893,7 +1448,12 @@
     "dxy": 98.566,
     "eurusd": 1.1606,
     "usdjpy": 148.46,
-    "gbpusd": 1.34624
+    "gbpusd": 1.34624,
+    "cny_per_usd": 7.1873,
+    "cny_per_eur": 8.34158,
+    "cny_per_jpy": 0.048412,
+    "cny_per_gbp": 9.675831,
+    "xauusd_cny_g": 773.69
   },
   {
     "date": "2025-08-13",
@@ -901,7 +1461,12 @@
     "dxy": 97.748,
     "eurusd": 1.1711,
     "usdjpy": 147.27,
-    "gbpusd": 1.35685
+    "gbpusd": 1.35685,
+    "cny_per_usd": 7.1745,
+    "cny_per_eur": 8.402057,
+    "cny_per_jpy": 0.048717,
+    "cny_per_gbp": 9.73472,
+    "xauusd_cny_g": 774.11
   },
   {
     "date": "2025-08-14",
@@ -909,7 +1474,12 @@
     "dxy": 97.815,
     "eurusd": 1.169,
     "usdjpy": 146.54,
-    "gbpusd": 1.35772
+    "gbpusd": 1.35772,
+    "cny_per_usd": 7.1706,
+    "cny_per_eur": 8.382431,
+    "cny_per_jpy": 0.048933,
+    "cny_per_gbp": 9.735667,
+    "xauusd_cny_g": 768.97
   },
   {
     "date": "2025-08-15",
@@ -917,7 +1487,12 @@
     "dxy": 97.891,
     "eurusd": 1.1688,
     "usdjpy": 147,
-    "gbpusd": 1.3556
+    "gbpusd": 1.3556,
+    "cny_per_usd": 7.1791,
+    "cny_per_eur": 8.390932,
+    "cny_per_jpy": 0.048837,
+    "cny_per_gbp": 9.731988,
+    "xauusd_cny_g": 770.72
   },
   {
     "date": "2025-08-18",
@@ -925,7 +1500,12 @@
     "dxy": 98.033,
     "eurusd": 1.1673,
     "usdjpy": 147.58,
-    "gbpusd": 1.35402
+    "gbpusd": 1.35402,
+    "cny_per_usd": 7.1788,
+    "cny_per_eur": 8.379813,
+    "cny_per_jpy": 0.048643,
+    "cny_per_gbp": 9.720239,
+    "xauusd_cny_g": 769.25
   },
   {
     "date": "2025-08-19",
@@ -933,7 +1513,12 @@
     "dxy": 98.029,
     "eurusd": 1.1682,
     "usdjpy": 147.81,
-    "gbpusd": 1.35208
+    "gbpusd": 1.35208,
+    "cny_per_usd": 7.1791,
+    "cny_per_eur": 8.386625,
+    "cny_per_jpy": 0.04857,
+    "cny_per_gbp": 9.706718,
+    "xauusd_cny_g": 765.35
   },
   {
     "date": "2025-08-20",
@@ -941,7 +1526,12 @@
     "dxy": 98.244,
     "eurusd": 1.16509,
     "usdjpy": 147.43,
-    "gbpusd": 1.34771
+    "gbpusd": 1.34771,
+    "cny_per_usd": 7.1761,
+    "cny_per_eur": 8.360802,
+    "cny_per_jpy": 0.048675,
+    "cny_per_gbp": 9.671302,
+    "xauusd_cny_g": 772.56
   },
   {
     "date": "2025-08-21",
@@ -949,7 +1539,12 @@
     "dxy": 98.377,
     "eurusd": 1.1639,
     "usdjpy": 147.86,
-    "gbpusd": 1.34494
+    "gbpusd": 1.34494,
+    "cny_per_usd": 7.1782,
+    "cny_per_eur": 8.354707,
+    "cny_per_jpy": 0.048547,
+    "cny_per_gbp": 9.654248,
+    "xauusd_cny_g": 770.61
   },
   {
     "date": "2025-08-22",
@@ -957,7 +1552,12 @@
     "dxy": 98.673,
     "eurusd": 1.16081,
     "usdjpy": 148.69,
-    "gbpusd": 1.34151
+    "gbpusd": 1.34151,
+    "cny_per_usd": 7.1789,
+    "cny_per_eur": 8.333339,
+    "cny_per_jpy": 0.048281,
+    "cny_per_gbp": 9.630566,
+    "xauusd_cny_g": 778.57
   },
   {
     "date": "2025-08-25",
@@ -965,7 +1565,12 @@
     "dxy": 97.907,
     "eurusd": 1.1697,
     "usdjpy": 147.35,
-    "gbpusd": 1.35084
+    "gbpusd": 1.35084,
+    "cny_per_usd": 7.1565,
+    "cny_per_eur": 8.370958,
+    "cny_per_jpy": 0.048568,
+    "cny_per_gbp": 9.667286,
+    "xauusd_cny_g": 774.42
   },
   {
     "date": "2025-08-26",
@@ -973,7 +1578,12 @@
     "dxy": 98.17,
     "eurusd": 1.1656,
     "usdjpy": 147.37,
-    "gbpusd": 1.34876
+    "gbpusd": 1.34876,
+    "cny_per_usd": 7.1574,
+    "cny_per_eur": 8.342665,
+    "cny_per_jpy": 0.048568,
+    "cny_per_gbp": 9.653615,
+    "xauusd_cny_g": 780.94
   },
   {
     "date": "2025-08-27",
@@ -981,7 +1591,12 @@
     "dxy": 98.6,
     "eurusd": 1.1593,
     "usdjpy": 148.05,
-    "gbpusd": 1.34396
+    "gbpusd": 1.34396,
+    "cny_per_usd": 7.1618,
+    "cny_per_eur": 8.302675,
+    "cny_per_jpy": 0.048374,
+    "cny_per_gbp": 9.625173,
+    "xauusd_cny_g": 782.29
   },
   {
     "date": "2025-08-28",
@@ -989,7 +1604,12 @@
     "dxy": 97.891,
     "eurusd": 1.1676,
     "usdjpy": 146.87,
-    "gbpusd": 1.35186
+    "gbpusd": 1.35186,
+    "cny_per_usd": 7.1314,
+    "cny_per_eur": 8.326623,
+    "cny_per_jpy": 0.048556,
+    "cny_per_gbp": 9.640654,
+    "xauusd_cny_g": 783.36
   },
   {
     "date": "2025-08-29",
@@ -997,7 +1617,12 @@
     "dxy": 98.083,
     "eurusd": 1.1658,
     "usdjpy": 147.3,
-    "gbpusd": 1.34495
+    "gbpusd": 1.34495,
+    "cny_per_usd": 7.1329,
+    "cny_per_eur": 8.315535,
+    "cny_per_jpy": 0.048424,
+    "cny_per_gbp": 9.593394,
+    "xauusd_cny_g": 791.72
   },
   {
     "date": "2025-09-01",
@@ -1005,7 +1630,12 @@
     "dxy": 97.687,
     "eurusd": 1.1715,
     "usdjpy": 147.22,
-    "gbpusd": 1.35247
+    "gbpusd": 1.35247,
+    "cny_per_usd": 7.1345,
+    "cny_per_eur": 8.358067,
+    "cny_per_jpy": 0.048461,
+    "cny_per_gbp": 9.649197,
+    "xauusd_cny_g": 797.47
   },
   {
     "date": "2025-09-02",
@@ -1013,7 +1643,12 @@
     "dxy": 98.331,
     "eurusd": 1.16461,
     "usdjpy": 148.63,
-    "gbpusd": 1.33831
+    "gbpusd": 1.33831,
+    "cny_per_usd": 7.1443,
+    "cny_per_eur": 8.320323,
+    "cny_per_jpy": 0.048068,
+    "cny_per_gbp": 9.561288,
+    "xauusd_cny_g": 811.54
   },
   {
     "date": "2025-09-03",
@@ -1021,7 +1656,12 @@
     "dxy": 98.273,
     "eurusd": 1.1653,
     "usdjpy": 148.61,
-    "gbpusd": 1.34144
+    "gbpusd": 1.34144,
+    "cny_per_usd": 7.1456,
+    "cny_per_eur": 8.326768,
+    "cny_per_jpy": 0.048083,
+    "cny_per_gbp": 9.585394,
+    "xauusd_cny_g": 817.77
   },
   {
     "date": "2025-09-04",
@@ -1029,7 +1669,12 @@
     "dxy": 98.278,
     "eurusd": 1.1647,
     "usdjpy": 148.33,
-    "gbpusd": 1.34445
+    "gbpusd": 1.34445,
+    "cny_per_usd": 7.1407,
+    "cny_per_eur": 8.316773,
+    "cny_per_jpy": 0.048141,
+    "cny_per_gbp": 9.600314,
+    "xauusd_cny_g": 814.08
   },
   {
     "date": "2025-09-05",
@@ -1037,7 +1682,12 @@
     "dxy": 97.924,
     "eurusd": 1.1697,
     "usdjpy": 147.98,
-    "gbpusd": 1.34789
+    "gbpusd": 1.34789,
+    "cny_per_usd": 7.1376,
+    "cny_per_eur": 8.348851,
+    "cny_per_jpy": 0.048234,
+    "cny_per_gbp": 9.6207,
+    "xauusd_cny_g": 824.9
   },
   {
     "date": "2025-09-08",
@@ -1045,7 +1695,12 @@
     "dxy": 97.681,
     "eurusd": 1.1728,
     "usdjpy": 147.84,
-    "gbpusd": 1.35287
+    "gbpusd": 1.35287,
+    "cny_per_usd": 7.1299,
+    "cny_per_eur": 8.361947,
+    "cny_per_jpy": 0.048227,
+    "cny_per_gbp": 9.645828,
+    "xauusd_cny_g": 833.49
   },
   {
     "date": "2025-09-09",
@@ -1053,7 +1708,12 @@
     "dxy": 97.478,
     "eurusd": 1.1744,
     "usdjpy": 146.76,
-    "gbpusd": 1.35566
+    "gbpusd": 1.35566,
+    "cny_per_usd": 7.1215,
+    "cny_per_eur": 8.36349,
+    "cny_per_jpy": 0.048525,
+    "cny_per_gbp": 9.654333,
+    "xauusd_cny_g": 830.22
   },
   {
     "date": "2025-09-10",
@@ -1061,7 +1721,12 @@
     "dxy": 97.778,
     "eurusd": 1.1707,
     "usdjpy": 147.49,
-    "gbpusd": 1.35342
+    "gbpusd": 1.35342,
+    "cny_per_usd": 7.1228,
+    "cny_per_eur": 8.338662,
+    "cny_per_jpy": 0.048293,
+    "cny_per_gbp": 9.64014,
+    "xauusd_cny_g": 833.73
   },
   {
     "date": "2025-09-11",
@@ -1069,7 +1734,12 @@
     "dxy": 97.978,
     "eurusd": 1.1685,
     "usdjpy": 147.95,
-    "gbpusd": 1.35133
+    "gbpusd": 1.35133,
+    "cny_per_usd": 7.1247,
+    "cny_per_eur": 8.325212,
+    "cny_per_jpy": 0.048156,
+    "cny_per_gbp": 9.627821,
+    "xauusd_cny_g": 832.43
   },
   {
     "date": "2025-09-12",
@@ -1077,7 +1747,12 @@
     "dxy": 97.747,
     "eurusd": 1.1718,
     "usdjpy": 147.92,
-    "gbpusd": 1.35421
+    "gbpusd": 1.35421,
+    "cny_per_usd": 7.1225,
+    "cny_per_eur": 8.346145,
+    "cny_per_jpy": 0.048151,
+    "cny_per_gbp": 9.645361,
+    "xauusd_cny_g": 834.49
   },
   {
     "date": "2025-09-15",
@@ -1085,7 +1760,12 @@
     "dxy": 97.343,
     "eurusd": 1.1766,
     "usdjpy": 147.36,
-    "gbpusd": 1.36166
+    "gbpusd": 1.36166,
+    "cny_per_usd": 7.1218,
+    "cny_per_eur": 8.37951,
+    "cny_per_jpy": 0.048329,
+    "cny_per_gbp": 9.69747,
+    "xauusd_cny_g": 842.44
   },
   {
     "date": "2025-09-16",
@@ -1093,7 +1773,12 @@
     "dxy": 97.023,
     "eurusd": 1.18069,
     "usdjpy": 146.99,
-    "gbpusd": 1.36403
+    "gbpusd": 1.36403,
+    "cny_per_usd": 7.1153,
+    "cny_per_eur": 8.400964,
+    "cny_per_jpy": 0.048407,
+    "cny_per_gbp": 9.705483,
+    "xauusd_cny_g": 844.09
   },
   {
     "date": "2025-09-17",
@@ -1101,7 +1786,12 @@
     "dxy": 96.813,
     "eurusd": 1.1837,
     "usdjpy": 146.39,
-    "gbpusd": 1.3645
+    "gbpusd": 1.3645,
+    "cny_per_usd": 7.1042,
+    "cny_per_eur": 8.409242,
+    "cny_per_jpy": 0.048529,
+    "cny_per_gbp": 9.693681,
+    "xauusd_cny_g": 835.88
   },
   {
     "date": "2025-09-18",
@@ -1109,7 +1799,12 @@
     "dxy": 97.07,
     "eurusd": 1.1818,
     "usdjpy": 147.44,
-    "gbpusd": 1.36153
+    "gbpusd": 1.36153,
+    "cny_per_usd": 7.1055,
+    "cny_per_eur": 8.39728,
+    "cny_per_jpy": 0.048192,
+    "cny_per_gbp": 9.674351,
+    "xauusd_cny_g": 832.57
   },
   {
     "date": "2025-09-19",
@@ -1117,7 +1812,12 @@
     "dxy": 97.742,
     "eurusd": 1.1736,
     "usdjpy": 148.08,
-    "gbpusd": 1.34773
+    "gbpusd": 1.34773,
+    "cny_per_usd": 7.1157,
+    "cny_per_eur": 8.350986,
+    "cny_per_jpy": 0.048053,
+    "cny_per_gbp": 9.590042,
+    "xauusd_cny_g": 842.91
   },
   {
     "date": "2025-09-22",
@@ -1125,7 +1825,12 @@
     "dxy": 97.451,
     "eurusd": 1.17811,
     "usdjpy": 147.84,
-    "gbpusd": 1.34964
+    "gbpusd": 1.34964,
+    "cny_per_usd": 7.1121,
+    "cny_per_eur": 8.378836,
+    "cny_per_jpy": 0.048107,
+    "cny_per_gbp": 9.598775,
+    "xauusd_cny_g": 856.67
   },
   {
     "date": "2025-09-23",
@@ -1133,7 +1838,12 @@
     "dxy": 97.357,
     "eurusd": 1.1793,
     "usdjpy": 147.8,
-    "gbpusd": 1.35102
+    "gbpusd": 1.35102,
+    "cny_per_usd": 7.1118,
+    "cny_per_eur": 8.386946,
+    "cny_per_jpy": 0.048118,
+    "cny_per_gbp": 9.608184,
+    "xauusd_cny_g": 860.79
   },
   {
     "date": "2025-09-24",
@@ -1141,7 +1851,12 @@
     "dxy": 97.693,
     "eurusd": 1.1756,
     "usdjpy": 148.44,
-    "gbpusd": 1.34647
+    "gbpusd": 1.34647,
+    "cny_per_usd": 7.1271,
+    "cny_per_eur": 8.378619,
+    "cny_per_jpy": 0.048013,
+    "cny_per_gbp": 9.596426,
+    "xauusd_cny_g": 856.11
   },
   {
     "date": "2025-09-25",
@@ -1149,7 +1864,12 @@
     "dxy": 97.884,
     "eurusd": 1.1739,
     "usdjpy": 148.82,
-    "gbpusd": 1.3419
+    "gbpusd": 1.3419,
+    "cny_per_usd": 7.1241,
+    "cny_per_eur": 8.362981,
+    "cny_per_jpy": 0.047871,
+    "cny_per_gbp": 9.55983,
+    "xauusd_cny_g": 858.78
   },
   {
     "date": "2025-09-26",
@@ -1157,7 +1877,12 @@
     "dxy": 98.417,
     "eurusd": 1.1672,
     "usdjpy": 149.75,
-    "gbpusd": 1.33547
+    "gbpusd": 1.33547,
+    "cny_per_usd": 7.1374,
+    "cny_per_eur": 8.330773,
+    "cny_per_jpy": 0.047662,
+    "cny_per_gbp": 9.531784,
+    "xauusd_cny_g": 864.36
   },
   {
     "date": "2025-09-29",
@@ -1165,7 +1890,12 @@
     "dxy": 97.97,
     "eurusd": 1.17231,
     "usdjpy": 148.75,
-    "gbpusd": 1.34392
+    "gbpusd": 1.34392,
+    "cny_per_usd": 7.1212,
+    "cny_per_eur": 8.348254,
+    "cny_per_jpy": 0.047874,
+    "cny_per_gbp": 9.570323,
+    "xauusd_cny_g": 877.68
   },
   {
     "date": "2025-09-30",
@@ -1173,7 +1903,12 @@
     "dxy": 97.807,
     "eurusd": 1.17409,
     "usdjpy": 147.99,
-    "gbpusd": 1.34428
+    "gbpusd": 1.34428,
+    "cny_per_usd": 7.1196,
+    "cny_per_eur": 8.359051,
+    "cny_per_jpy": 0.048109,
+    "cny_per_gbp": 9.570736,
+    "xauusd_cny_g": 883.26
   },
   {
     "date": "2025-10-01",
@@ -1181,7 +1916,12 @@
     "dxy": 97.798,
     "eurusd": 1.1724,
     "usdjpy": 147.11,
-    "gbpusd": 1.34696
+    "gbpusd": 1.34696,
+    "cny_per_usd": 7.1196,
+    "cny_per_eur": 8.347019,
+    "cny_per_jpy": 0.048396,
+    "cny_per_gbp": 9.589816,
+    "xauusd_cny_g": 884.87
   },
   {
     "date": "2025-10-02",
@@ -1189,7 +1929,12 @@
     "dxy": 97.584,
     "eurusd": 1.17541,
     "usdjpy": 146.78,
-    "gbpusd": 1.34778
+    "gbpusd": 1.34778,
+    "cny_per_usd": 7.1195,
+    "cny_per_eur": 8.368331,
+    "cny_per_jpy": 0.048505,
+    "cny_per_gbp": 9.59552,
+    "xauusd_cny_g": 882.77
   },
   {
     "date": "2025-10-03",
@@ -1197,7 +1942,12 @@
     "dxy": 97.783,
     "eurusd": 1.17341,
     "usdjpy": 147.35,
-    "gbpusd": 1.34472
+    "gbpusd": 1.34472,
+    "cny_per_usd": 7.1196,
+    "cny_per_eur": 8.35421,
+    "cny_per_jpy": 0.048318,
+    "cny_per_gbp": 9.573869,
+    "xauusd_cny_g": 889.49
   },
   {
     "date": "2025-10-06",
@@ -1205,7 +1955,12 @@
     "dxy": 98.326,
     "eurusd": 1.1678,
     "usdjpy": 150.04,
-    "gbpusd": 1.34308
+    "gbpusd": 1.34308,
+    "cny_per_usd": 7.1195,
+    "cny_per_eur": 8.314152,
+    "cny_per_jpy": 0.047451,
+    "cny_per_gbp": 9.562058,
+    "xauusd_cny_g": 906.44
   },
   {
     "date": "2025-10-07",
@@ -1213,7 +1968,12 @@
     "dxy": 98.474,
     "eurusd": 1.1666,
     "usdjpy": 150.91,
-    "gbpusd": 1.34046
+    "gbpusd": 1.34046,
+    "cny_per_usd": 7.1196,
+    "cny_per_eur": 8.305725,
+    "cny_per_jpy": 0.047178,
+    "cny_per_gbp": 9.543539,
+    "xauusd_cny_g": 912.13
   },
   {
     "date": "2025-10-08",
@@ -1221,7 +1981,12 @@
     "dxy": 98.838,
     "eurusd": 1.1627,
     "usdjpy": 152.69,
-    "gbpusd": 1.34091
+    "gbpusd": 1.34091,
+    "cny_per_usd": 7.1195,
+    "cny_per_eur": 8.277843,
+    "cny_per_jpy": 0.046627,
+    "cny_per_gbp": 9.546609,
+    "xauusd_cny_g": 924.98
   },
   {
     "date": "2025-10-09",
@@ -1229,7 +1994,12 @@
     "dxy": 98.984,
     "eurusd": 1.1611,
     "usdjpy": 152.79,
-    "gbpusd": 1.3372
+    "gbpusd": 1.3372,
+    "cny_per_usd": 7.1224,
+    "cny_per_eur": 8.269819,
+    "cny_per_jpy": 0.046616,
+    "cny_per_gbp": 9.524073,
+    "xauusd_cny_g": 910.71
   },
   {
     "date": "2025-10-10",
@@ -1237,7 +2007,12 @@
     "dxy": 99.34,
     "eurusd": 1.1568,
     "usdjpy": 152.54,
-    "gbpusd": 1.32829
+    "gbpusd": 1.32829,
+    "cny_per_usd": 7.1228,
+    "cny_per_eur": 8.239655,
+    "cny_per_jpy": 0.046695,
+    "cny_per_gbp": 9.461144,
+    "xauusd_cny_g": 918.46
   },
   {
     "date": "2025-10-13",
@@ -1245,7 +2020,12 @@
     "dxy": 99.239,
     "eurusd": 1.1569,
     "usdjpy": 152.11,
-    "gbpusd": 1.3333
+    "gbpusd": 1.3333,
+    "cny_per_usd": 7.1321,
+    "cny_per_eur": 8.251126,
+    "cny_per_jpy": 0.046888,
+    "cny_per_gbp": 9.509229,
+    "xauusd_cny_g": 942.49
   },
   {
     "date": "2025-10-14",
@@ -1253,7 +2033,12 @@
     "dxy": 99.434,
     "eurusd": 1.15529,
     "usdjpy": 152.1,
-    "gbpusd": 1.3261
+    "gbpusd": 1.3261,
+    "cny_per_usd": 7.14,
+    "cny_per_eur": 8.248771,
+    "cny_per_jpy": 0.046943,
+    "cny_per_gbp": 9.468354,
+    "xauusd_cny_g": 950.82
   },
   {
     "date": "2025-10-15",
@@ -1261,7 +2046,12 @@
     "dxy": 98.903,
     "eurusd": 1.1622,
     "usdjpy": 151.55,
-    "gbpusd": 1.3351
+    "gbpusd": 1.3351,
+    "cny_per_usd": 7.1264,
+    "cny_per_eur": 8.282302,
+    "cny_per_jpy": 0.047023,
+    "cny_per_gbp": 9.514457,
+    "xauusd_cny_g": 964.14
   },
   {
     "date": "2025-10-16",
@@ -1269,7 +2059,12 @@
     "dxy": 98.664,
     "eurusd": 1.1649,
     "usdjpy": 151.28,
-    "gbpusd": 1.34268
+    "gbpusd": 1.34268,
+    "cny_per_usd": 7.1258,
+    "cny_per_eur": 8.300844,
+    "cny_per_jpy": 0.047103,
+    "cny_per_gbp": 9.567669,
+    "xauusd_cny_g": 991.56
   },
   {
     "date": "2025-10-17",
@@ -1277,7 +2072,12 @@
     "dxy": 98.381,
     "eurusd": 1.1681,
     "usdjpy": 150.42,
-    "gbpusd": 1.34342
+    "gbpusd": 1.34342,
+    "cny_per_usd": 7.1223,
+    "cny_per_eur": 8.319559,
+    "cny_per_jpy": 0.047349,
+    "cny_per_gbp": 9.56824,
+    "xauusd_cny_g": 967.56
   },
   {
     "date": "2025-10-20",
@@ -1285,7 +2085,12 @@
     "dxy": 98.56,
     "eurusd": 1.1655,
     "usdjpy": 150.76,
-    "gbpusd": 1.34104
+    "gbpusd": 1.34104,
+    "cny_per_usd": 7.1235,
+    "cny_per_eur": 8.302439,
+    "cny_per_jpy": 0.047251,
+    "cny_per_gbp": 9.552898,
+    "xauusd_cny_g": 997.65
   },
   {
     "date": "2025-10-21",
@@ -1293,7 +2098,12 @@
     "dxy": 98.945,
     "eurusd": 1.1607,
     "usdjpy": 152.02,
-    "gbpusd": 1.33752
+    "gbpusd": 1.33752,
+    "cny_per_usd": 7.1186,
+    "cny_per_eur": 8.262559,
+    "cny_per_jpy": 0.046827,
+    "cny_per_gbp": 9.52127,
+    "xauusd_cny_g": 944.04
   },
   {
     "date": "2025-10-22",
@@ -1301,7 +2111,12 @@
     "dxy": 99.057,
     "eurusd": 1.15869,
     "usdjpy": 151.83,
-    "gbpusd": 1.33353
+    "gbpusd": 1.33353,
+    "cny_per_usd": 7.1266,
+    "cny_per_eur": 8.25752,
+    "cny_per_jpy": 0.046938,
+    "cny_per_gbp": 9.503535,
+    "xauusd_cny_g": 939.03
   },
   {
     "date": "2025-10-23",
@@ -1309,7 +2124,12 @@
     "dxy": 99.077,
     "eurusd": 1.1593,
     "usdjpy": 152.63,
-    "gbpusd": 1.3339
+    "gbpusd": 1.3339,
+    "cny_per_usd": 7.1244,
+    "cny_per_eur": 8.259317,
+    "cny_per_jpy": 0.046678,
+    "cny_per_gbp": 9.503237,
+    "xauusd_cny_g": 945.23
   },
   {
     "date": "2025-10-24",
@@ -1317,7 +2137,12 @@
     "dxy": 99.038,
     "eurusd": 1.1612,
     "usdjpy": 152.9,
-    "gbpusd": 1.33074
+    "gbpusd": 1.33074,
+    "cny_per_usd": 7.1225,
+    "cny_per_eur": 8.270647,
+    "cny_per_jpy": 0.046583,
+    "cny_per_gbp": 9.478196,
+    "xauusd_cny_g": 939.78
   },
   {
     "date": "2025-10-27",
@@ -1325,7 +2150,12 @@
     "dxy": 98.826,
     "eurusd": 1.164,
     "usdjpy": 152.86,
-    "gbpusd": 1.3347
+    "gbpusd": 1.3347,
+    "cny_per_usd": 7.1075,
+    "cny_per_eur": 8.27313,
+    "cny_per_jpy": 0.046497,
+    "cny_per_gbp": 9.48638,
+    "xauusd_cny_g": 911.71
   },
   {
     "date": "2025-10-28",
@@ -1333,7 +2163,12 @@
     "dxy": 98.909,
     "eurusd": 1.16299,
     "usdjpy": 152.29,
-    "gbpusd": 1.32763
+    "gbpusd": 1.32763,
+    "cny_per_usd": 7.1014,
+    "cny_per_eur": 8.258857,
+    "cny_per_jpy": 0.046631,
+    "cny_per_gbp": 9.428032,
+    "xauusd_cny_g": 898.35
   },
   {
     "date": "2025-10-29",
@@ -1341,7 +2176,12 @@
     "dxy": 98.87,
     "eurusd": 1.1636,
     "usdjpy": 152.17,
-    "gbpusd": 1.32121
+    "gbpusd": 1.32121,
+    "cny_per_usd": 7.0994,
+    "cny_per_eur": 8.260862,
+    "cny_per_jpy": 0.046654,
+    "cny_per_gbp": 9.379798,
+    "xauusd_cny_g": 899.69
   },
   {
     "date": "2025-10-30",
@@ -1349,7 +2189,12 @@
     "dxy": 99.701,
     "eurusd": 1.155,
     "usdjpy": 154.43,
-    "gbpusd": 1.31235
+    "gbpusd": 1.31235,
+    "cny_per_usd": 7.1143,
+    "cny_per_eur": 8.217016,
+    "cny_per_jpy": 0.046068,
+    "cny_per_gbp": 9.336452,
+    "xauusd_cny_g": 923.58
   },
   {
     "date": "2025-10-31",
@@ -1357,7 +2202,12 @@
     "dxy": 99.681,
     "eurusd": 1.1554,
     "usdjpy": 154.18,
-    "gbpusd": 1.31056
+    "gbpusd": 1.31056,
+    "cny_per_usd": 7.1162,
+    "cny_per_eur": 8.222057,
+    "cny_per_jpy": 0.046155,
+    "cny_per_gbp": 9.326207,
+    "xauusd_cny_g": 915.8
   },
   {
     "date": "2025-11-03",
@@ -1365,7 +2215,12 @@
     "dxy": 99.902,
     "eurusd": 1.1514,
     "usdjpy": 154.22,
-    "gbpusd": 1.31363
+    "gbpusd": 1.31363,
+    "cny_per_usd": 7.1206,
+    "cny_per_eur": 8.198659,
+    "cny_per_jpy": 0.046172,
+    "cny_per_gbp": 9.353834,
+    "xauusd_cny_g": 916.03
   },
   {
     "date": "2025-11-04",
@@ -1373,7 +2228,12 @@
     "dxy": 100.075,
     "eurusd": 1.1491,
     "usdjpy": 153.5,
-    "gbpusd": 1.30654
+    "gbpusd": 1.30654,
+    "cny_per_usd": 7.1253,
+    "cny_per_eur": 8.187682,
+    "cny_per_jpy": 0.046419,
+    "cny_per_gbp": 9.309489,
+    "xauusd_cny_g": 900.77
   },
   {
     "date": "2025-11-05",
@@ -1381,7 +2241,12 @@
     "dxy": 100.158,
     "eurusd": 1.1492,
     "usdjpy": 153.73,
-    "gbpusd": 1.30443
+    "gbpusd": 1.30443,
+    "cny_per_usd": 7.1271,
+    "cny_per_eur": 8.190463,
+    "cny_per_jpy": 0.046361,
+    "cny_per_gbp": 9.296803,
+    "xauusd_cny_g": 911.91
   },
   {
     "date": "2025-11-06",
@@ -1389,7 +2254,12 @@
     "dxy": 99.836,
     "eurusd": 1.1533,
     "usdjpy": 153.6,
-    "gbpusd": 1.30953
+    "gbpusd": 1.30953,
+    "cny_per_usd": 7.1195,
+    "cny_per_eur": 8.210919,
+    "cny_per_jpy": 0.046351,
+    "cny_per_gbp": 9.323199,
+    "xauusd_cny_g": 910.37
   },
   {
     "date": "2025-11-07",
@@ -1397,7 +2267,12 @@
     "dxy": 99.64,
     "eurusd": 1.1561,
     "usdjpy": 153.09,
-    "gbpusd": 1.31211
+    "gbpusd": 1.31211,
+    "cny_per_usd": 7.1208,
+    "cny_per_eur": 8.232357,
+    "cny_per_jpy": 0.046514,
+    "cny_per_gbp": 9.343273,
+    "xauusd_cny_g": 916.71
   },
   {
     "date": "2025-11-10",
@@ -1405,7 +2280,12 @@
     "dxy": 99.536,
     "eurusd": 1.1571,
     "usdjpy": 154.1,
-    "gbpusd": 1.31818
+    "gbpusd": 1.31818,
+    "cny_per_usd": 7.1193,
+    "cny_per_eur": 8.237742,
+    "cny_per_jpy": 0.046199,
+    "cny_per_gbp": 9.384519,
+    "xauusd_cny_g": 942.12
   },
   {
     "date": "2025-11-11",
@@ -1413,7 +2293,12 @@
     "dxy": 99.539,
     "eurusd": 1.1575,
     "usdjpy": 154.18,
-    "gbpusd": 1.31475
+    "gbpusd": 1.31475,
+    "cny_per_usd": 7.1185,
+    "cny_per_eur": 8.239664,
+    "cny_per_jpy": 0.04617,
+    "cny_per_gbp": 9.359048,
+    "xauusd_cny_g": 944.5
   },
   {
     "date": "2025-11-12",
@@ -1421,7 +2306,12 @@
     "dxy": 99.577,
     "eurusd": 1.15759,
     "usdjpy": 154.79,
-    "gbpusd": 1.31203
+    "gbpusd": 1.31203,
+    "cny_per_usd": 7.1165,
+    "cny_per_eur": 8.237989,
+    "cny_per_jpy": 0.045975,
+    "cny_per_gbp": 9.337061,
+    "xauusd_cny_g": 959.95
   },
   {
     "date": "2025-11-13",
@@ -1429,7 +2319,12 @@
     "dxy": 99.261,
     "eurusd": 1.1619,
     "usdjpy": 154.55,
-    "gbpusd": 1.31749
+    "gbpusd": 1.31749,
+    "cny_per_usd": 7.0961,
+    "cny_per_eur": 8.244959,
+    "cny_per_jpy": 0.045915,
+    "cny_per_gbp": 9.349041,
+    "xauusd_cny_g": 951.62
   },
   {
     "date": "2025-11-14",
@@ -1437,7 +2332,12 @@
     "dxy": 99.049,
     "eurusd": 1.1648,
     "usdjpy": 153.86,
-    "gbpusd": 1.31676
+    "gbpusd": 1.31676,
+    "cny_per_usd": 7.0961,
+    "cny_per_eur": 8.265537,
+    "cny_per_jpy": 0.04612,
+    "cny_per_gbp": 9.343861,
+    "xauusd_cny_g": 932.44
   },
   {
     "date": "2025-11-17",
@@ -1445,7 +2345,12 @@
     "dxy": 99.452,
     "eurusd": 1.1593,
     "usdjpy": 154.9,
-    "gbpusd": 1.31813
+    "gbpusd": 1.31813,
+    "cny_per_usd": 7.1076,
+    "cny_per_eur": 8.239841,
+    "cny_per_jpy": 0.045885,
+    "cny_per_gbp": 9.368741,
+    "xauusd_cny_g": 924.4
   },
   {
     "date": "2025-11-18",
@@ -1453,7 +2358,12 @@
     "dxy": 99.548,
     "eurusd": 1.159,
     "usdjpy": 155.25,
-    "gbpusd": 1.31391
+    "gbpusd": 1.31391,
+    "cny_per_usd": 7.1104,
+    "cny_per_eur": 8.240954,
+    "cny_per_jpy": 0.0458,
+    "cny_per_gbp": 9.342426,
+    "xauusd_cny_g": 929.81
   },
   {
     "date": "2025-11-19",
@@ -1461,7 +2371,12 @@
     "dxy": 99.688,
     "eurusd": 1.15831,
     "usdjpy": 156.13,
-    "gbpusd": 1.31222
+    "gbpusd": 1.31222,
+    "cny_per_usd": 7.1103,
+    "cny_per_eur": 8.235932,
+    "cny_per_jpy": 0.045541,
+    "cny_per_gbp": 9.330278,
+    "xauusd_cny_g": 932.2
   },
   {
     "date": "2025-11-20",
@@ -1469,7 +2384,12 @@
     "dxy": 100.303,
     "eurusd": 1.1514,
     "usdjpy": 157.61,
-    "gbpusd": 1.30618
+    "gbpusd": 1.30618,
+    "cny_per_usd": 7.1138,
+    "cny_per_eur": 8.190829,
+    "cny_per_jpy": 0.045135,
+    "cny_per_gbp": 9.291903,
+    "xauusd_cny_g": 932.51
   },
   {
     "date": "2025-11-21",
@@ -1477,7 +2397,12 @@
     "dxy": 100.192,
     "eurusd": 1.15199,
     "usdjpy": 156.74,
-    "gbpusd": 1.30864
+    "gbpusd": 1.30864,
+    "cny_per_usd": 7.1098,
+    "cny_per_eur": 8.190419,
+    "cny_per_jpy": 0.04536,
+    "cny_per_gbp": 9.304169,
+    "xauusd_cny_g": 930
   },
   {
     "date": "2025-11-24",
@@ -1485,7 +2410,12 @@
     "dxy": 100.07,
     "eurusd": 1.1544,
     "usdjpy": 156.98,
-    "gbpusd": 1.31122
+    "gbpusd": 1.31122,
+    "cny_per_usd": 7.0888,
+    "cny_per_eur": 8.183311,
+    "cny_per_jpy": 0.045157,
+    "cny_per_gbp": 9.294976,
+    "xauusd_cny_g": 942.53
   },
   {
     "date": "2025-11-25",
@@ -1493,7 +2423,12 @@
     "dxy": 99.964,
     "eurusd": 1.15509,
     "usdjpy": 156.19,
-    "gbpusd": 1.31441
+    "gbpusd": 1.31441,
+    "cny_per_usd": 7.0855,
+    "cny_per_eur": 8.18439,
+    "cny_per_jpy": 0.045365,
+    "cny_per_gbp": 9.313252,
+    "xauusd_cny_g": 940.98
   },
   {
     "date": "2025-11-26",
@@ -1501,7 +2436,12 @@
     "dxy": 99.771,
     "eurusd": 1.1577,
     "usdjpy": 156.42,
-    "gbpusd": 1.31917
+    "gbpusd": 1.31917,
+    "cny_per_usd": 7.0795,
+    "cny_per_eur": 8.195937,
+    "cny_per_jpy": 0.04526,
+    "cny_per_gbp": 9.339064,
+    "xauusd_cny_g": 947.64
   },
   {
     "date": "2025-11-27",
@@ -1509,7 +2449,12 @@
     "dxy": 99.629,
     "eurusd": 1.1586,
     "usdjpy": 156.32,
-    "gbpusd": 1.3235
+    "gbpusd": 1.3235,
+    "cny_per_usd": 7.0834,
+    "cny_per_eur": 8.206827,
+    "cny_per_jpy": 0.045313,
+    "cny_per_gbp": 9.37488,
+    "xauusd_cny_g": 946.77
   },
   {
     "date": "2025-11-28",
@@ -1517,7 +2462,12 @@
     "dxy": 99.705,
     "eurusd": 1.1566,
     "usdjpy": 156.12,
-    "gbpusd": 1.32153
+    "gbpusd": 1.32153,
+    "cny_per_usd": 7.0756,
+    "cny_per_eur": 8.183639,
+    "cny_per_jpy": 0.045322,
+    "cny_per_gbp": 9.350618,
+    "xauusd_cny_g": 967.28
   },
   {
     "date": "2025-12-01",
@@ -1525,7 +2475,12 @@
     "dxy": 99.06,
     "eurusd": 1.16461,
     "usdjpy": 154.8,
-    "gbpusd": 1.32672
+    "gbpusd": 1.32672,
+    "cny_per_usd": 7.0718,
+    "cny_per_eur": 8.235889,
+    "cny_per_jpy": 0.045683,
+    "cny_per_gbp": 9.382298,
+    "xauusd_cny_g": 962.09
   },
   {
     "date": "2025-12-02",
@@ -1533,7 +2488,12 @@
     "dxy": 99.452,
     "eurusd": 1.1614,
     "usdjpy": 156.07,
-    "gbpusd": 1.32038
+    "gbpusd": 1.32038,
+    "cny_per_usd": 7.071,
+    "cny_per_eur": 8.212259,
+    "cny_per_jpy": 0.045307,
+    "cny_per_gbp": 9.336407,
+    "xauusd_cny_g": 956.24
   },
   {
     "date": "2025-12-03",
@@ -1541,7 +2501,12 @@
     "dxy": 98.94,
     "eurusd": 1.16681,
     "usdjpy": 155.37,
-    "gbpusd": 1.33104
+    "gbpusd": 1.33104,
+    "cny_per_usd": 7.0638,
+    "cny_per_eur": 8.242112,
+    "cny_per_jpy": 0.045464,
+    "cny_per_gbp": 9.4022,
+    "xauusd_cny_g": 954.49
   },
   {
     "date": "2025-12-04",
@@ -1549,7 +2514,12 @@
     "dxy": 98.897,
     "eurusd": 1.1666,
     "usdjpy": 154.77,
-    "gbpusd": 1.33403
+    "gbpusd": 1.33403,
+    "cny_per_usd": 7.0717,
+    "cny_per_eur": 8.249845,
+    "cny_per_jpy": 0.045692,
+    "cny_per_gbp": 9.43386,
+    "xauusd_cny_g": 956.71
   },
   {
     "date": "2025-12-05",
@@ -1557,7 +2527,12 @@
     "dxy": 99.035,
     "eurusd": 1.1645,
     "usdjpy": 155.23,
-    "gbpusd": 1.33437
+    "gbpusd": 1.33437,
+    "cny_per_usd": 7.0702,
+    "cny_per_eur": 8.233248,
+    "cny_per_jpy": 0.045547,
+    "cny_per_gbp": 9.434263,
+    "xauusd_cny_g": 955.21
   },
   {
     "date": "2025-12-08",
@@ -1565,7 +2540,12 @@
     "dxy": 98.942,
     "eurusd": 1.1655,
     "usdjpy": 155.55,
-    "gbpusd": 1.3326
+    "gbpusd": 1.3326,
+    "cny_per_usd": 7.068,
+    "cny_per_eur": 8.237754,
+    "cny_per_jpy": 0.045439,
+    "cny_per_gbp": 9.418817,
+    "xauusd_cny_g": 952.24
   },
   {
     "date": "2025-12-09",
@@ -1573,7 +2553,12 @@
     "dxy": 99.123,
     "eurusd": 1.1637,
     "usdjpy": 156.36,
-    "gbpusd": 1.33223
+    "gbpusd": 1.33223,
+    "cny_per_usd": 7.0643,
+    "cny_per_eur": 8.220726,
+    "cny_per_jpy": 0.04518,
+    "cny_per_gbp": 9.411272,
+    "xauusd_cny_g": 955.67
   },
   {
     "date": "2025-12-10",
@@ -1581,7 +2566,12 @@
     "dxy": 99.153,
     "eurusd": 1.1634,
     "usdjpy": 156.71,
-    "gbpusd": 1.33097
+    "gbpusd": 1.33097,
+    "cny_per_usd": 7.0625,
+    "cny_per_eur": 8.216513,
+    "cny_per_jpy": 0.045067,
+    "cny_per_gbp": 9.399976,
+    "xauusd_cny_g": 960.14
   },
   {
     "date": "2025-12-11",
@@ -1589,7 +2579,12 @@
     "dxy": 98.501,
     "eurusd": 1.1714,
     "usdjpy": 155.58,
-    "gbpusd": 1.3386
+    "gbpusd": 1.3386,
+    "cny_per_usd": 7.0581,
+    "cny_per_eur": 8.267858,
+    "cny_per_jpy": 0.045366,
+    "cny_per_gbp": 9.447973,
+    "xauusd_cny_g": 971.38
   },
   {
     "date": "2025-12-12",
@@ -1597,7 +2592,12 @@
     "dxy": 98.437,
     "eurusd": 1.1731,
     "usdjpy": 155.99,
-    "gbpusd": 1.33808
+    "gbpusd": 1.33808,
+    "cny_per_usd": 7.0547,
+    "cny_per_eur": 8.275869,
+    "cny_per_jpy": 0.045225,
+    "cny_per_gbp": 9.439753,
+    "xauusd_cny_g": 975.28
   },
   {
     "date": "2025-12-15",
@@ -1605,7 +2605,12 @@
     "dxy": 98.255,
     "eurusd": 1.1753,
     "usdjpy": 155.13,
-    "gbpusd": 1.33876
+    "gbpusd": 1.33876,
+    "cny_per_usd": 7.0471,
+    "cny_per_eur": 8.282457,
+    "cny_per_jpy": 0.045427,
+    "cny_per_gbp": 9.434376,
+    "xauusd_cny_g": 975.49
   },
   {
     "date": "2025-12-16",
@@ -1613,7 +2618,12 @@
     "dxy": 98.053,
     "eurusd": 1.17761,
     "usdjpy": 154.61,
-    "gbpusd": 1.34367
+    "gbpusd": 1.34367,
+    "cny_per_usd": 7.0423,
+    "cny_per_eur": 8.293083,
+    "cny_per_jpy": 0.045549,
+    "cny_per_gbp": 9.462527,
+    "xauusd_cny_g": 974.1
   },
   {
     "date": "2025-12-17",
@@ -1621,7 +2631,12 @@
     "dxy": 98.524,
     "eurusd": 1.1722,
     "usdjpy": 155.59,
-    "gbpusd": 1.33431
+    "gbpusd": 1.33431,
+    "cny_per_usd": 7.0439,
+    "cny_per_eur": 8.25686,
+    "cny_per_jpy": 0.045272,
+    "cny_per_gbp": 9.398746,
+    "xauusd_cny_g": 982.59
   },
   {
     "date": "2025-12-18",
@@ -1629,7 +2644,12 @@
     "dxy": 98.488,
     "eurusd": 1.17189,
     "usdjpy": 155.77,
-    "gbpusd": 1.33993
+    "gbpusd": 1.33993,
+    "cny_per_usd": 7.0413,
+    "cny_per_eur": 8.251629,
+    "cny_per_jpy": 0.045203,
+    "cny_per_gbp": 9.434849,
+    "xauusd_cny_g": 980.8
   },
   {
     "date": "2025-12-19",
@@ -1637,7 +2657,12 @@
     "dxy": 98.682,
     "eurusd": 1.17119,
     "usdjpy": 157.23,
-    "gbpusd": 1.33699
+    "gbpusd": 1.33699,
+    "cny_per_usd": 7.0411,
+    "cny_per_eur": 8.246466,
+    "cny_per_jpy": 0.044782,
+    "cny_per_gbp": 9.41388,
+    "xauusd_cny_g": 982.4
   },
   {
     "date": "2025-12-22",
@@ -1645,7 +2670,12 @@
     "dxy": 98.414,
     "eurusd": 1.17449,
     "usdjpy": 157.32,
-    "gbpusd": 1.34351
+    "gbpusd": 1.34351,
+    "cny_per_usd": 7.037,
+    "cny_per_eur": 8.264886,
+    "cny_per_jpy": 0.04473,
+    "cny_per_gbp": 9.45428,
+    "xauusd_cny_g": 1005.27
   },
   {
     "date": "2025-12-23",
@@ -1653,7 +2683,12 @@
     "dxy": 97.953,
     "eurusd": 1.17861,
     "usdjpy": 156.02,
-    "gbpusd": 1.35022
+    "gbpusd": 1.35022,
+    "cny_per_usd": 7.0281,
+    "cny_per_eur": 8.283389,
+    "cny_per_jpy": 0.045046,
+    "cny_per_gbp": 9.489481,
+    "xauusd_cny_g": 1013.27
   },
   {
     "date": "2025-12-24",
@@ -1661,7 +2696,12 @@
     "dxy": 97.924,
     "eurusd": 1.1787,
     "usdjpy": 155.96,
-    "gbpusd": 1.35033
+    "gbpusd": 1.35033,
+    "cny_per_usd": 7.0144,
+    "cny_per_eur": 8.267873,
+    "cny_per_jpy": 0.044976,
+    "cny_per_gbp": 9.471755,
+    "xauusd_cny_g": 1010.17
   },
   {
     "date": "2025-12-26",
@@ -1669,7 +2709,12 @@
     "dxy": null,
     "eurusd": null,
     "usdjpy": null,
-    "gbpusd": null
+    "gbpusd": null,
+    "cny_per_usd": null,
+    "cny_per_eur": null,
+    "cny_per_jpy": null,
+    "cny_per_gbp": null,
+    "xauusd_cny_g": null
   },
   {
     "date": "2025-12-29",
@@ -1677,7 +2722,12 @@
     "dxy": 98.101,
     "eurusd": 1.1766,
     "usdjpy": 156.36,
-    "gbpusd": 1.34838
+    "gbpusd": 1.34838,
+    "cny_per_usd": 7.0065,
+    "cny_per_eur": 8.243848,
+    "cny_per_jpy": 0.04481,
+    "cny_per_gbp": 9.447424,
+    "xauusd_cny_g": 975.85
   },
   {
     "date": "2025-12-30",
@@ -1685,7 +2735,12 @@
     "dxy": 98.12,
     "eurusd": 1.1757,
     "usdjpy": 156.06,
-    "gbpusd": 1.34951
+    "gbpusd": 1.34951,
+    "cny_per_usd": 6.9929,
+    "cny_per_eur": 8.221553,
+    "cny_per_jpy": 0.044809,
+    "cny_per_gbp": 9.436988,
+    "xauusd_cny_g": 975.46
   },
   {
     "date": "2025-12-31",
@@ -1693,7 +2748,12 @@
     "dxy": 98.242,
     "eurusd": 1.17501,
     "usdjpy": 156.67,
-    "gbpusd": 1.34655
+    "gbpusd": 1.34655,
+    "cny_per_usd": 7.001,
+    "cny_per_eur": 8.226245,
+    "cny_per_jpy": 0.044686,
+    "cny_per_gbp": 9.427197,
+    "xauusd_cny_g": 972.06
   },
   {
     "date": "2026-01-02",
@@ -1701,7 +2761,12 @@
     "dxy": 98.458,
     "eurusd": 1.1721,
     "usdjpy": 156.93,
-    "gbpusd": 1.3443
+    "gbpusd": 1.3443,
+    "cny_per_usd": 6.9937,
+    "cny_per_eur": 8.197316,
+    "cny_per_jpy": 0.044566,
+    "cny_per_gbp": 9.401631,
+    "xauusd_cny_g": 973.95
   },
   {
     "date": "2026-01-05",
@@ -1709,7 +2774,12 @@
     "dxy": 98.79,
     "eurusd": 1.1664,
     "usdjpy": 156.83,
-    "gbpusd": 1.34439
+    "gbpusd": 1.34439,
+    "cny_per_usd": 6.9854,
+    "cny_per_eur": 8.147771,
+    "cny_per_jpy": 0.044541,
+    "cny_per_gbp": 9.391102,
+    "xauusd_cny_g": 999.21
   },
   {
     "date": "2026-01-06",
@@ -1717,7 +2787,12 @@
     "dxy": 98.44,
     "eurusd": 1.1707,
     "usdjpy": 156.44,
-    "gbpusd": 1.35139
+    "gbpusd": 1.35139,
+    "cny_per_usd": 6.9844,
+    "cny_per_eur": 8.176637,
+    "cny_per_jpy": 0.044646,
+    "cny_per_gbp": 9.438648,
+    "xauusd_cny_g": 1009.38
   },
   {
     "date": "2026-01-07",
@@ -1725,7 +2800,12 @@
     "dxy": 98.617,
     "eurusd": 1.1684,
     "usdjpy": 156.55,
-    "gbpusd": 1.34856
+    "gbpusd": 1.34856,
+    "cny_per_usd": 6.9912,
+    "cny_per_eur": 8.168518,
+    "cny_per_jpy": 0.044658,
+    "cny_per_gbp": 9.428053,
+    "xauusd_cny_g": 1001.68
   },
   {
     "date": "2026-01-08",
@@ -1733,7 +2813,12 @@
     "dxy": 98.769,
     "eurusd": 1.1675,
     "usdjpy": 156.72,
-    "gbpusd": 1.34396
+    "gbpusd": 1.34396,
+    "cny_per_usd": 6.9818,
+    "cny_per_eur": 8.151251,
+    "cny_per_jpy": 0.04455,
+    "cny_per_gbp": 9.38326,
+    "xauusd_cny_g": 1005.26
   },
   {
     "date": "2026-01-09",
@@ -1741,7 +2826,12 @@
     "dxy": 99.059,
     "eurusd": 1.1642,
     "usdjpy": 157.64,
-    "gbpusd": 1.34171
+    "gbpusd": 1.34171,
+    "cny_per_usd": 6.9823,
+    "cny_per_eur": 8.128794,
+    "cny_per_jpy": 0.044293,
+    "cny_per_gbp": 9.368222,
+    "xauusd_cny_g": 1011.99
   },
   {
     "date": "2026-01-12",
@@ -1749,7 +2839,12 @@
     "dxy": 98.71,
     "eurusd": 1.16919,
     "usdjpy": 157.73,
-    "gbpusd": 1.34795
+    "gbpusd": 1.34795,
+    "cny_per_usd": 6.9731,
+    "cny_per_eur": 8.152879,
+    "cny_per_jpy": 0.044209,
+    "cny_per_gbp": 9.39939,
+    "xauusd_cny_g": 1030.94
   },
   {
     "date": "2026-01-13",
@@ -1757,7 +2852,12 @@
     "dxy": 99.041,
     "eurusd": 1.16541,
     "usdjpy": 158.85,
-    "gbpusd": 1.34573
+    "gbpusd": 1.34573,
+    "cny_per_usd": 6.9756,
+    "cny_per_eur": 8.129434,
+    "cny_per_jpy": 0.043913,
+    "cny_per_gbp": 9.387274,
+    "xauusd_cny_g": 1028.52
   },
   {
     "date": "2026-01-14",
@@ -1765,7 +2865,12 @@
     "dxy": 99.067,
     "eurusd": 1.16509,
     "usdjpy": 158.63,
-    "gbpusd": 1.34414
+    "gbpusd": 1.34414,
+    "cny_per_usd": 6.9734,
+    "cny_per_eur": 8.124639,
+    "cny_per_jpy": 0.04396,
+    "cny_per_gbp": 9.373226,
+    "xauusd_cny_g": 1037.49
   },
   {
     "date": "2026-01-15",
@@ -1773,7 +2878,12 @@
     "dxy": 99.246,
     "eurusd": 1.1624,
     "usdjpy": 158.56,
-    "gbpusd": 1.34011
+    "gbpusd": 1.34011,
+    "cny_per_usd": 6.9673,
+    "cny_per_eur": 8.09879,
+    "cny_per_jpy": 0.043941,
+    "cny_per_gbp": 9.336948,
+    "xauusd_cny_g": 1034.04
   },
   {
     "date": "2026-01-16",
@@ -1781,7 +2891,12 @@
     "dxy": 99.246,
     "eurusd": 1.1617,
     "usdjpy": 158.1,
-    "gbpusd": 1.33991
+    "gbpusd": 1.33991,
+    "cny_per_usd": 6.9697,
+    "cny_per_eur": 8.0967,
+    "cny_per_jpy": 0.044084,
+    "cny_per_gbp": 9.338771,
+    "xauusd_cny_g": 1026.8
   },
   {
     "date": "2026-01-19",
@@ -1789,7 +2904,12 @@
     "dxy": 99.129,
     "eurusd": 1.1631,
     "usdjpy": 157.93,
-    "gbpusd": 1.34136
+    "gbpusd": 1.34136,
+    "cny_per_usd": 6.9634,
+    "cny_per_eur": 8.099131,
+    "cny_per_jpy": 0.044092,
+    "cny_per_gbp": 9.340426,
+    "xauusd_cny_g": 1045.74
   },
   {
     "date": "2026-01-20",
@@ -1797,7 +2917,12 @@
     "dxy": 98.51,
     "eurusd": 1.1728,
     "usdjpy": 157.9,
-    "gbpusd": 1.34465
+    "gbpusd": 1.34465,
+    "cny_per_usd": 6.9589,
+    "cny_per_eur": 8.161398,
+    "cny_per_jpy": 0.044072,
+    "cny_per_gbp": 9.357285,
+    "xauusd_cny_g": 1065.79
   },
   {
     "date": "2026-01-21",
@@ -1805,7 +2930,12 @@
     "dxy": 98.419,
     "eurusd": 1.1739,
     "usdjpy": 157.79,
-    "gbpusd": 1.34252
+    "gbpusd": 1.34252,
+    "cny_per_usd": 6.9639,
+    "cny_per_eur": 8.174922,
+    "cny_per_jpy": 0.044134,
+    "cny_per_gbp": 9.349175,
+    "xauusd_cny_g": 1082.01
   },
   {
     "date": "2026-01-22",
@@ -1813,7 +2943,12 @@
     "dxy": 98.682,
     "eurusd": 1.1706,
     "usdjpy": 158.79,
-    "gbpusd": 1.34212
+    "gbpusd": 1.34212,
+    "cny_per_usd": 6.9757,
+    "cny_per_eur": 8.165754,
+    "cny_per_jpy": 0.04393,
+    "cny_per_gbp": 9.362226,
+    "xauusd_cny_g": 1107.05
   },
   {
     "date": "2026-01-23",
@@ -1821,7 +2956,12 @@
     "dxy": 98.295,
     "eurusd": 1.17421,
     "usdjpy": 158.16,
-    "gbpusd": 1.35261
+    "gbpusd": 1.35261,
+    "cny_per_usd": 6.9646,
+    "cny_per_eur": 8.177903,
+    "cny_per_jpy": 0.044035,
+    "cny_per_gbp": 9.420388,
+    "xauusd_cny_g": 1115.52
   },
   {
     "date": "2026-01-26",
@@ -1829,7 +2969,12 @@
     "dxy": 97.316,
     "eurusd": 1.1836,
     "usdjpy": 154.21,
-    "gbpusd": 1.36439
+    "gbpusd": 1.36439,
+    "cny_per_usd": 6.9544,
+    "cny_per_eur": 8.231228,
+    "cny_per_jpy": 0.045097,
+    "cny_per_gbp": 9.488514,
+    "xauusd_cny_g": 1120.4
   },
   {
     "date": "2026-01-27",
@@ -1837,7 +2982,12 @@
     "dxy": 96.616,
     "eurusd": 1.1929,
     "usdjpy": 153.34,
-    "gbpusd": 1.37383
+    "gbpusd": 1.37383,
+    "cny_per_usd": 6.9548,
+    "cny_per_eur": 8.296381,
+    "cny_per_jpy": 0.045355,
+    "cny_per_gbp": 9.554713,
+    "xauusd_cny_g": 1157.93
   },
   {
     "date": "2026-01-28",
@@ -1845,7 +2995,12 @@
     "dxy": 96.203,
     "eurusd": 1.1974,
     "usdjpy": 152.63,
-    "gbpusd": 1.3787
+    "gbpusd": 1.3787,
+    "cny_per_usd": 6.9464,
+    "cny_per_eur": 8.317619,
+    "cny_per_jpy": 0.045511,
+    "cny_per_gbp": 9.577002,
+    "xauusd_cny_g": 1209.38
   },
   {
     "date": "2026-01-29",
@@ -1853,7 +3008,12 @@
     "dxy": 96.231,
     "eurusd": 1.1968,
     "usdjpy": 153.31,
-    "gbpusd": 1.38167
+    "gbpusd": 1.38167,
+    "cny_per_usd": 6.9462,
+    "cny_per_eur": 8.313212,
+    "cny_per_jpy": 0.045308,
+    "cny_per_gbp": 9.597356,
+    "xauusd_cny_g": 1201.22
   },
   {
     "date": "2026-01-30",
@@ -1861,7 +3021,12 @@
     "dxy": 96.573,
     "eurusd": 1.1919,
     "usdjpy": 154.03,
-    "gbpusd": 1.37601
+    "gbpusd": 1.37601,
+    "cny_per_usd": 6.9497,
+    "cny_per_eur": 8.283347,
+    "cny_per_jpy": 0.045119,
+    "cny_per_gbp": 9.562857,
+    "xauusd_cny_g": 1083.2
   },
   {
     "date": "2026-02-02",
@@ -1869,7 +3034,12 @@
     "dxy": 97.276,
     "eurusd": 1.18401,
     "usdjpy": 155.06,
-    "gbpusd": 1.36752
+    "gbpusd": 1.36752,
+    "cny_per_usd": 6.9434,
+    "cny_per_eur": 8.221055,
+    "cny_per_jpy": 0.044779,
+    "cny_per_gbp": 9.495238,
+    "xauusd_cny_g": 1040.56
   },
   {
     "date": "2026-02-03",
@@ -1877,7 +3047,12 @@
     "dxy": 97.524,
     "eurusd": 1.18009,
     "usdjpy": 155.85,
-    "gbpusd": 1.36855
+    "gbpusd": 1.36855,
+    "cny_per_usd": 6.9381,
+    "cny_per_eur": 8.187582,
+    "cny_per_jpy": 0.044518,
+    "cny_per_gbp": 9.495137,
+    "xauusd_cny_g": 1103.55
   },
   {
     "date": "2026-02-04",
@@ -1885,7 +3060,12 @@
     "dxy": 97.467,
     "eurusd": 1.18201,
     "usdjpy": 156.64,
-    "gbpusd": 1.37187
+    "gbpusd": 1.37187,
+    "cny_per_usd": 6.9417,
+    "cny_per_eur": 8.205159,
+    "cny_per_jpy": 0.044316,
+    "cny_per_gbp": 9.52311,
+    "xauusd_cny_g": 1108.09
   },
   {
     "date": "2026-02-05",
@@ -1893,7 +3073,12 @@
     "dxy": 97.773,
     "eurusd": 1.1798,
     "usdjpy": 156.9,
-    "gbpusd": 1.3575
+    "gbpusd": 1.3575,
+    "cny_per_usd": 6.9392,
+    "cny_per_eur": 8.186868,
+    "cny_per_jpy": 0.044227,
+    "cny_per_gbp": 9.419964,
+    "xauusd_cny_g": 1066.34
   },
   {
     "date": "2026-02-06",
@@ -1901,7 +3086,12 @@
     "dxy": 97.805,
     "eurusd": 1.1794,
     "usdjpy": 157.09,
-    "gbpusd": 1.35892
+    "gbpusd": 1.35892,
+    "cny_per_usd": 6.939,
+    "cny_per_eur": 8.183857,
+    "cny_per_jpy": 0.044172,
+    "cny_per_gbp": 9.429546,
+    "xauusd_cny_g": 1104.98
   },
   {
     "date": "2026-02-09",
@@ -1909,7 +3099,12 @@
     "dxy": 97.117,
     "eurusd": 1.18859,
     "usdjpy": 156.19,
-    "gbpusd": 1.36605
+    "gbpusd": 1.36605,
+    "cny_per_usd": 6.9225,
+    "cny_per_eur": 8.228014,
+    "cny_per_jpy": 0.044321,
+    "cny_per_gbp": 9.456481,
+    "xauusd_cny_g": 1125.84
   },
   {
     "date": "2026-02-10",
@@ -1917,7 +3112,12 @@
     "dxy": 96.92,
     "eurusd": 1.1894,
     "usdjpy": 155.13,
-    "gbpusd": 1.36791
+    "gbpusd": 1.36791,
+    "cny_per_usd": 6.9148,
+    "cny_per_eur": 8.224463,
+    "cny_per_jpy": 0.044574,
+    "cny_per_gbp": 9.458824,
+    "xauusd_cny_g": 1117.24
   },
   {
     "date": "2026-02-11",
@@ -1925,7 +3125,12 @@
     "dxy": 96.737,
     "eurusd": 1.18999,
     "usdjpy": 153.61,
-    "gbpusd": 1.36797
+    "gbpusd": 1.36797,
+    "cny_per_usd": 6.9113,
+    "cny_per_eur": 8.224378,
+    "cny_per_jpy": 0.044993,
+    "cny_per_gbp": 9.454451,
+    "xauusd_cny_g": 1129.83
   },
   {
     "date": "2026-02-12",
@@ -1933,7 +3138,12 @@
     "dxy": 96.943,
     "eurusd": 1.18739,
     "usdjpy": 153.71,
-    "gbpusd": 1.3631
+    "gbpusd": 1.3631,
+    "cny_per_usd": 6.9011,
+    "cny_per_eur": 8.194297,
+    "cny_per_jpy": 0.044897,
+    "cny_per_gbp": 9.406889,
+    "xauusd_cny_g": 1092.06
   },
   {
     "date": "2026-02-13",
@@ -1941,7 +3151,12 @@
     "dxy": 97.03,
     "eurusd": 1.1862,
     "usdjpy": 153.29,
-    "gbpusd": 1.36095
+    "gbpusd": 1.36095,
+    "cny_per_usd": 6.9086,
+    "cny_per_eur": 8.194981,
+    "cny_per_jpy": 0.045069,
+    "cny_per_gbp": 9.402259,
+    "xauusd_cny_g": 1117.89
   },
   {
     "date": "2026-02-16",
@@ -1949,7 +3164,12 @@
     "dxy": 97.048,
     "eurusd": 1.18549,
     "usdjpy": 153.34,
-    "gbpusd": 1.36422
+    "gbpusd": 1.36422,
+    "cny_per_usd": 6.9086,
+    "cny_per_eur": 8.190076,
+    "cny_per_jpy": 0.045054,
+    "cny_per_gbp": 9.42485,
+    "xauusd_cny_g": 1108.91
   },
   {
     "date": "2026-02-17",
@@ -1957,7 +3177,12 @@
     "dxy": 97.292,
     "eurusd": 1.18261,
     "usdjpy": 153.1,
-    "gbpusd": 1.35417
+    "gbpusd": 1.35417,
+    "cny_per_usd": 6.9087,
+    "cny_per_eur": 8.170298,
+    "cny_per_jpy": 0.045125,
+    "cny_per_gbp": 9.355554,
+    "xauusd_cny_g": 1083.39
   },
   {
     "date": "2026-02-18",
@@ -1965,7 +3190,12 @@
     "dxy": 97.191,
     "eurusd": 1.1845,
     "usdjpy": 153.64,
-    "gbpusd": 1.35775
+    "gbpusd": 1.35775,
+    "cny_per_usd": 6.9087,
+    "cny_per_eur": 8.183355,
+    "cny_per_jpy": 0.044967,
+    "cny_per_gbp": 9.380287,
+    "xauusd_cny_g": 1105.59
   },
   {
     "date": "2026-02-19",
@@ -1973,7 +3203,12 @@
     "dxy": 97.971,
     "eurusd": 1.1753,
     "usdjpy": 154.9,
-    "gbpusd": 1.34504
+    "gbpusd": 1.34504,
+    "cny_per_usd": 6.9086,
+    "cny_per_eur": 8.119678,
+    "cny_per_jpy": 0.0446,
+    "cny_per_gbp": 9.292343,
+    "xauusd_cny_g": 1109.77
   },
   {
     "date": "2026-02-20",
@@ -1981,7 +3216,12 @@
     "dxy": 97.885,
     "eurusd": 1.17671,
     "usdjpy": 155.21,
-    "gbpusd": 1.34818
+    "gbpusd": 1.34818,
+    "cny_per_usd": 6.9086,
+    "cny_per_eur": 8.129419,
+    "cny_per_jpy": 0.044511,
+    "cny_per_gbp": 9.314036,
+    "xauusd_cny_g": 1132.23
   },
   {
     "date": "2026-02-23",
@@ -1989,7 +3229,12 @@
     "dxy": 97.762,
     "eurusd": 1.1784,
     "usdjpy": 154.82,
-    "gbpusd": 1.34922
+    "gbpusd": 1.34922,
+    "cny_per_usd": 6.9087,
+    "cny_per_eur": 8.141212,
+    "cny_per_jpy": 0.044624,
+    "cny_per_gbp": 9.321356,
+    "xauusd_cny_g": 1161.15
   },
   {
     "date": "2026-02-24",
@@ -1997,7 +3242,12 @@
     "dxy": 97.891,
     "eurusd": 1.1777,
     "usdjpy": 155.84,
-    "gbpusd": 1.34887
+    "gbpusd": 1.34887,
+    "cny_per_usd": 6.8817,
+    "cny_per_eur": 8.104578,
+    "cny_per_jpy": 0.044159,
+    "cny_per_gbp": 9.282519,
+    "xauusd_cny_g": 1138.11
   },
   {
     "date": "2026-02-25",
@@ -2005,7 +3255,12 @@
     "dxy": 97.887,
     "eurusd": 1.1784,
     "usdjpy": 156.74,
-    "gbpusd": 1.3523
+    "gbpusd": 1.3523,
+    "cny_per_usd": 6.8695,
+    "cny_per_eur": 8.095019,
+    "cny_per_jpy": 0.043827,
+    "cny_per_gbp": 9.289625,
+    "xauusd_cny_g": 1140.74
   },
   {
     "date": "2026-02-26",
@@ -2013,7 +3268,12 @@
     "dxy": 97.634,
     "eurusd": 1.1814,
     "usdjpy": 156.06,
-    "gbpusd": 1.35498
+    "gbpusd": 1.35498,
+    "cny_per_usd": 6.8413,
+    "cny_per_eur": 8.082312,
+    "cny_per_jpy": 0.043838,
+    "cny_per_gbp": 9.269825,
+    "xauusd_cny_g": 1140.51
   },
   {
     "date": "2026-02-27",
@@ -2021,7 +3281,12 @@
     "dxy": 97.725,
     "eurusd": 1.1805,
     "usdjpy": 155.98,
-    "gbpusd": 1.34715
+    "gbpusd": 1.34715,
+    "cny_per_usd": 6.8582,
+    "cny_per_eur": 8.096105,
+    "cny_per_jpy": 0.043968,
+    "cny_per_gbp": 9.239024,
+    "xauusd_cny_g": 1160.65
   },
   {
     "date": "2026-03-02",
@@ -2029,7 +3294,12 @@
     "dxy": 98.53,
     "eurusd": 1.1698,
     "usdjpy": 157.45,
-    "gbpusd": 1.3386
+    "gbpusd": 1.3386,
+    "cny_per_usd": 6.8825,
+    "cny_per_eur": 8.051149,
+    "cny_per_jpy": 0.043712,
+    "cny_per_gbp": 9.212915,
+    "xauusd_cny_g": 1177.67
   },
   {
     "date": "2026-03-03",
@@ -2037,7 +3307,12 @@
     "dxy": 99.134,
     "eurusd": 1.1606,
     "usdjpy": 157.66,
-    "gbpusd": 1.33142
+    "gbpusd": 1.33142,
+    "cny_per_usd": 6.9076,
+    "cny_per_eur": 8.016961,
+    "cny_per_jpy": 0.043813,
+    "cny_per_gbp": 9.196917,
+    "xauusd_cny_g": 1130.08
   },
   {
     "date": "2026-03-04",
@@ -2045,7 +3320,12 @@
     "dxy": 98.742,
     "eurusd": 1.1649,
     "usdjpy": 157.11,
-    "gbpusd": 1.3382
+    "gbpusd": 1.3382,
+    "cny_per_usd": 6.8973,
+    "cny_per_eur": 8.034665,
+    "cny_per_jpy": 0.043901,
+    "cny_per_gbp": 9.229967,
+    "xauusd_cny_g": 1140.12
   },
   {
     "date": "2026-03-05",
@@ -2053,7 +3333,12 @@
     "dxy": 98.943,
     "eurusd": 1.1618,
     "usdjpy": 157.54,
-    "gbpusd": 1.33617
+    "gbpusd": 1.33617,
+    "cny_per_usd": 6.9011,
+    "cny_per_eur": 8.017698,
+    "cny_per_jpy": 0.043805,
+    "cny_per_gbp": 9.221043,
+    "xauusd_cny_g": 1127.38
   },
   {
     "date": "2026-03-06",
@@ -2061,7 +3346,12 @@
     "dxy": 99.33,
     "eurusd": 1.1561,
     "usdjpy": 157.92,
-    "gbpusd": 1.33356
+    "gbpusd": 1.33356,
+    "cny_per_usd": 6.9047,
+    "cny_per_eur": 7.982524,
+    "cny_per_jpy": 0.043723,
+    "cny_per_gbp": 9.207832,
+    "xauusd_cny_g": 1143.98
   },
   {
     "date": "2026-03-07",
@@ -2069,6 +3359,11 @@
     "dxy": 99.33,
     "eurusd": 1.1561,
     "usdjpy": 157.92,
-    "gbpusd": 1.33356
+    "gbpusd": 1.33356,
+    "cny_per_usd": 6.9025,
+    "cny_per_eur": 8.0132,
+    "cny_per_jpy": 0.043814,
+    "cny_per_gbp": 9.2198,
+    "xauusd_cny_g": 1143.62
   }
 ]

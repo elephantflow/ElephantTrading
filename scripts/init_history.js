@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 /**
- * init_history.js
- * 一次性初始化过去一年的历史价格数据
- * 数据来源：
- *   - EUR/USD, USD/JPY, GBP/USD, USD/CAD, USD/SEK, USD/CHF: frankfurter.app (ECB 官方，免费)
- *   - XAU/USD (黄金): stooq.com
- *   - DXY: 由以上汇率按官方权重公式计算
- *     公式: 50.14348112 × EUR^(-0.576) × JPY^(0.136) × GBP^(-0.119) × CAD^(0.091) × SEK^(0.042) × CHF^(0.036)
+ * init_history.js - v2
+ * 初始化过去一年历史数据，包含 CNY 计价字段
+ * - XAU/USD: stooq
+ * - 汇率: frankfurter.app (含CNY)
+ * - DXY: 公式计算
+ * - xauusd_cny_g: 黄金 CNY/克
  */
 
 const { execSync } = require('child_process');
@@ -14,9 +13,10 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '../data/prices.json');
+const TROY_OZ_TO_G = 31.1034768;
 
 function httpsGet(url) {
-  return execSync(`curl -sL --max-time 30 -H "User-Agent: ElephantTrading/1.0" "${url}"`, { encoding: 'utf8' });
+  return execSync(`curl -sL --max-time 30 -H "User-Agent: ElephantTrading/1.0" '${url}'`, { encoding: 'utf8' });
 }
 
 function formatDate(d) {
@@ -34,7 +34,6 @@ function getDateRange(startDate, endDate) {
   return dates;
 }
 
-// 计算 DXY（官方公式）
 function calcDXY(rates) {
   const { EUR, JPY, GBP, CAD, SEK, CHF } = rates;
   if (!EUR || !JPY || !GBP || !CAD || !SEK || !CHF) return null;
@@ -51,9 +50,10 @@ function calcDXY(rates) {
 }
 
 async function fetchFrankfurter(startDate, endDate) {
-  const url = `https://api.frankfurter.app/${startDate}..${endDate}?from=USD&to=EUR,JPY,GBP,CAD,SEK,CHF`;
-  console.log(`Fetching frankfurter: ${startDate} to ${endDate}`);
-  const raw = await httpsGet(url);
+  // 获取 USD 为基准的多货币汇率（含CNY）
+  const url = `https://api.frankfurter.app/${startDate}..${endDate}?from=USD&to=EUR,JPY,GBP,CAD,SEK,CHF,CNY`;
+  console.log(`Fetching frankfurter (USD base, incl CNY): ${startDate} to ${endDate}`);
+  const raw = httpsGet(url);
   const json = JSON.parse(raw);
   return json.rates || {};
 }
@@ -63,7 +63,7 @@ async function fetchGoldHistory(startDate, endDate) {
   const d2 = endDate.replace(/-/g, '');
   const url = `https://stooq.com/q/d/l/?s=xauusd&d1=${d1}&d2=${d2}&i=d`;
   console.log(`Fetching gold history...`);
-  const raw = await httpsGet(url);
+  const raw = httpsGet(url);
   const lines = raw.trim().split('\n');
   const result = {};
   for (let i = 1; i < lines.length; i++) {
@@ -104,7 +104,22 @@ async function main() {
     const usdjpy = fx && fx.JPY ? parseFloat(fx.JPY.toFixed(3)) : null;
     const gbpusd = fx && fx.GBP ? parseFloat((1 / fx.GBP).toFixed(5)) : null;
 
-    records.push({ date, xauusd: gold || null, dxy, eurusd, usdjpy, gbpusd });
+    // CNY 汇率（来自 frankfurter，基于 ECB/市场汇率）
+    // CNY rate = CNY per USD (frankfurter returns CNY units per 1 USD)
+    const cny_per_usd = fx && fx.CNY ? parseFloat(fx.CNY.toFixed(6)) : null;
+    const cny_per_eur = (eurusd && cny_per_usd) ? parseFloat((eurusd * cny_per_usd).toFixed(6)) : null;
+    const cny_per_jpy = (usdjpy && cny_per_usd) ? parseFloat((cny_per_usd / usdjpy).toFixed(6)) : null;
+    const cny_per_gbp = (gbpusd && cny_per_usd) ? parseFloat((gbpusd * cny_per_usd).toFixed(6)) : null;
+
+    // 黄金 CNY/克
+    const xauusd_cny_g = (gold && cny_per_usd)
+      ? parseFloat((gold * cny_per_usd / TROY_OZ_TO_G).toFixed(2))
+      : null;
+
+    records.push({
+      date, xauusd: gold || null, dxy, eurusd, usdjpy, gbpusd,
+      cny_per_usd, cny_per_eur, cny_per_jpy, cny_per_gbp, xauusd_cny_g
+    });
   }
 
   console.log(`Total records: ${records.length}`);
@@ -114,18 +129,29 @@ async function main() {
     existing = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   }
 
+  // 合并：新记录优先，但保留今日中行抓取数据
   const map = {};
   for (const r of existing) map[r.date] = r;
-  for (const r of records) map[r.date] = r;
+  for (const r of records) {
+    if (map[r.date]) {
+      // 合并：保留中行抓取的 cny_ 字段（更精确），其余覆盖
+      const merged = { ...r };
+      for (const k of ['cny_per_usd','cny_per_eur','cny_per_jpy','cny_per_gbp','xauusd_cny_g']) {
+        if (map[r.date][k] !== null && map[r.date][k] !== undefined) merged[k] = map[r.date][k];
+      }
+      map[r.date] = merged;
+    } else {
+      map[r.date] = r;
+    }
+  }
 
   const merged = Object.values(map).sort((a, b) => a.date.localeCompare(b.date));
 
   fs.writeFileSync(DATA_FILE, JSON.stringify(merged, null, 2));
   console.log(`✅ Saved ${merged.length} records to ${DATA_FILE}`);
 
-  // 打印最新几条
-  console.log('\nLatest 3 records:');
-  merged.slice(-3).forEach(r => console.log(JSON.stringify(r)));
+  console.log('\nLatest 2 records:');
+  merged.slice(-2).forEach(r => console.log(JSON.stringify(r)));
 }
 
 main().catch(err => {

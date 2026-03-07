@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ElephantTrading · 资产价格追踪</title>
+  <title>🐘 ElephantTrading · 资产价格追踪</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
   <style>
     :root {
       --bg: #0d1117;
       --card: #161b22;
+      --card2: #1c2128;
       --border: #30363d;
       --text: #e6edf3;
       --muted: #8b949e;
@@ -18,179 +18,127 @@
       --yellow: #d29922;
       --blue: #58a6ff;
       --purple: #bc8cff;
+      --gold: #d4a017;
       --accent: #1f6feb;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding: 16px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    header h1 {
-      font-size: 18px;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    header h1 img.logo {
-      height: 36px;
-      width: 36px;
-      object-fit: contain;
-      border-radius: 6px;
-    }
-    .updated { color: var(--muted); font-size: 12px; }
-    main { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif; font-size: 14px; line-height: 1.5; }
 
-    /* Summary Cards */
-    .cards {
+    /* ── Header ── */
+    header { border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+    .header-left { display: flex; align-items: center; gap: 10px; }
+    .logo { font-size: 26px; }
+    .site-name { font-size: 17px; font-weight: 700; }
+    .site-sub { font-size: 12px; color: var(--muted); }
+    .updated { color: var(--muted); font-size: 12px; text-align: right; }
+
+    /* ── Layout ── */
+    main { max-width: 1240px; margin: 0 auto; padding: 20px 24px; }
+    section { margin-bottom: 28px; }
+    .section-title {
+      font-size: 13px; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.6px;
+      margin-bottom: 12px; display: flex; align-items: center; gap: 6px;
+    }
+
+    /* ── Gold Hero Card ── */
+    .gold-hero {
+      background: linear-gradient(135deg, #1a1500 0%, #1c1a08 40%, #161b22 100%);
+      border: 1px solid #4a3800;
+      border-radius: 10px;
+      padding: 22px 28px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 12px;
-      margin-bottom: 24px;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 16px;
     }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-      cursor: pointer;
-      transition: border-color 0.2s;
-    }
-    .card:hover, .card.active { border-color: var(--accent); }
-    .card .label { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
-    .card .price { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
-    .card .change { font-size: 12px; margin-top: 4px; display: flex; gap: 8px; align-items: center; }
-    .card .trend-badge {
+    .gold-main { border-right: 1px solid #3a2f00; padding-right: 20px; }
+    .gold-main .asset-label { color: var(--gold); font-size: 12px; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .gold-main .price-cny { font-size: 36px; font-weight: 800; color: var(--gold); letter-spacing: -0.5px; }
+    .gold-main .price-cny .unit { font-size: 14px; font-weight: 400; color: #a07820; margin-left: 4px; }
+    .gold-main .price-usd { color: var(--muted); font-size: 13px; margin-top: 4px; }
+    .gold-stats { display: flex; flex-direction: column; justify-content: center; gap: 8px; }
+    .gold-stat-row { display: flex; justify-content: space-between; align-items: center; }
+    .gold-stat-label { color: var(--muted); font-size: 12px; }
+    .gold-stat-val { font-size: 13px; font-variant-numeric: tabular-nums; }
+    .gold-trend { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; padding-left: 20px; border-left: 1px solid #3a2f00; }
+    .trend-chip {
+      padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600;
       display: inline-flex; align-items: center; gap: 4px;
-      padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 600;
     }
+    .chip-up { background: rgba(63,185,80,0.15); color: var(--green); }
+    .chip-down { background: rgba(248,81,73,0.15); color: var(--red); }
+    .chip-flat { background: rgba(210,153,34,0.15); color: var(--yellow); }
+
+    /* ── FX Grid ── */
+    .fx-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .fx-card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      padding: 16px 18px; cursor: pointer; transition: border-color 0.18s;
+    }
+    .fx-card:hover, .fx-card.active { border-color: var(--accent); }
+    .fx-card .fx-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+    .fx-card .fx-name { font-weight: 600; font-size: 14px; }
+    .fx-card .fx-code { color: var(--muted); font-size: 11px; }
+    .fx-main-rates { display: flex; gap: 24px; margin-bottom: 8px; }
+    .fx-rate-block .rate-label { color: var(--muted); font-size: 11px; margin-bottom: 2px; }
+    .fx-rate-block .rate-val { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .fx-rate-block .rate-unit { font-size: 11px; color: var(--muted); }
+    .fx-divider { width: 1px; background: var(--border); }
+    .fx-change { font-size: 12px; color: var(--muted); }
+
+    /* ── Chart Section ── */
+    .chart-section { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+    .chart-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+    .chart-title { font-size: 15px; font-weight: 600; }
+    .chart-controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .tab-btns { display: flex; gap: 4px; }
+    .tab-btn {
+      padding: 4px 10px; border-radius: 4px; border: 1px solid var(--border);
+      background: transparent; color: var(--muted); cursor: pointer; font-size: 12px; transition: all 0.15s;
+    }
+    .tab-btn:hover, .tab-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+    .range-btns { display: flex; gap: 4px; }
+    .range-btn {
+      padding: 3px 8px; border-radius: 4px; border: 1px solid var(--border);
+      background: transparent; color: var(--muted); cursor: pointer; font-size: 11px; transition: all 0.15s;
+    }
+    .range-btn:hover, .range-btn.active { background: var(--card2); border-color: var(--blue); color: var(--blue); }
+    .chart-container { position: relative; height: 300px; }
+
+    /* ── Stats Grid ── */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+    .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+    .stat-card h4 { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 8px; }
+    .stat-row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 13px; }
+    .stat-row:last-child { border-bottom: none; }
+    .stat-key { color: var(--muted); }
+
+    /* ── Trend Summary ── */
+    .trend-summary { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; }
+    .trend-items { display: flex; flex-direction: column; gap: 8px; }
+    .trend-item { padding: 10px 14px; border-radius: 6px; background: rgba(255,255,255,0.025); display: flex; gap: 14px; align-items: flex-start; }
+    .trend-icon { font-size: 18px; }
+    .trend-body {}
+    .trend-name { font-weight: 600; font-size: 13px; margin-bottom: 2px; }
+    .trend-desc { color: var(--muted); font-size: 13px; line-height: 1.6; }
+
+    /* ── Data Source Note ── */
+    .source-note { background: var(--card2); border: 1px solid var(--border); border-radius: 6px; padding: 12px 16px; font-size: 12px; color: var(--muted); }
+    .source-note a { color: var(--blue); text-decoration: none; }
+
+    footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; border-top: 1px solid var(--border); }
+    footer a { color: var(--blue); text-decoration: none; }
+
     .up { color: var(--green); }
     .down { color: var(--red); }
     .flat { color: var(--yellow); }
-    .badge-up { background: rgba(63,185,80,0.15); color: var(--green); }
-    .badge-down { background: rgba(248,81,73,0.15); color: var(--red); }
-    .badge-flat { background: rgba(210,153,34,0.15); color: var(--yellow); }
 
-    /* Chart area */
-    .chart-section {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 24px;
-    }
-    .chart-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .chart-title { font-size: 16px; font-weight: 600; }
-    .range-btns { display: flex; gap: 6px; }
-    .range-btn {
-      padding: 4px 10px;
-      border-radius: 4px;
-      border: 1px solid var(--border);
-      background: transparent;
-      color: var(--muted);
-      cursor: pointer;
-      font-size: 12px;
-      transition: all 0.15s;
-    }
-    .range-btn:hover, .range-btn.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: white;
-    }
-    .chart-container { position: relative; height: 320px; }
-
-    /* Analysis */
-    .analysis-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-    .analysis-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 16px;
-    }
-    .analysis-card h3 {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 10px;
-    }
-    .stat-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .stat-row:last-child { border-bottom: none; }
-    .stat-label { color: var(--muted); }
-    .stat-val { font-variant-numeric: tabular-nums; }
-
-    /* Trend Summary */
-    .trend-summary {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 24px;
-    }
-    .trend-summary h2 { font-size: 15px; font-weight: 600; margin-bottom: 14px; }
-    .trend-rows { display: flex; flex-direction: column; gap: 10px; }
-    .trend-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      padding: 10px 12px;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.03);
-    }
-    .trend-row .asset-name {
-      font-weight: 600;
-      min-width: 80px;
-    }
-    .trend-row .trend-text { color: var(--muted); line-height: 1.6; }
-
-    footer {
-      text-align: center;
-      color: var(--muted);
-      font-size: 12px;
-      padding: 24px;
-      border-top: 1px solid var(--border);
-    }
-    footer a { color: var(--blue); text-decoration: none; }
-
-    .loading {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 200px;
-      color: var(--muted);
-    }
-
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       main { padding: 12px; }
+      .gold-hero { grid-template-columns: 1fr; gap: 12px; }
+      .gold-main { border-right: none; border-bottom: 1px solid #3a2f00; padding-right: 0; padding-bottom: 12px; }
+      .gold-trend { border-left: none; border-top: 1px solid #3a2f00; padding-left: 0; padding-top: 12px; }
       .chart-container { height: 240px; }
     }
   </style>
@@ -198,69 +146,134 @@
 <body>
 
 <header>
-  <h1><span class="logo">🐘</span> ElephantTrading · 资产价格追踪</h1>
+  <div class="header-left">
+    <span class="logo">🐘</span>
+    <div>
+      <div class="site-name">ElephantTrading</div>
+      <div class="site-sub">黄金 · 外汇 长期趋势追踪</div>
+    </div>
+  </div>
   <div class="updated" id="lastUpdated">加载中...</div>
 </header>
 
 <main>
-  <div class="cards" id="cards">
-    <div class="loading">正在加载数据...</div>
-  </div>
 
-  <div class="chart-section">
-    <div class="chart-header">
-      <div class="chart-title" id="chartTitle">黄金 XAU/USD</div>
-      <div class="range-btns">
-        <button class="range-btn" onclick="setRange(30)">1M</button>
-        <button class="range-btn active" onclick="setRange(90)">3M</button>
-        <button class="range-btn" onclick="setRange(180)">6M</button>
-        <button class="range-btn" onclick="setRange(365)">1Y</button>
+  <!-- ① 黄金板块 -->
+  <section>
+    <div class="section-title">⚡ 黄金实时</div>
+    <div id="goldHero" class="gold-hero">
+      <div class="gold-main">
+        <div class="asset-label">黄金 · XAU</div>
+        <div class="price-cny">--<span class="unit">元/克</span></div>
+        <div class="price-usd">国际价格：-- USD/oz</div>
+      </div>
+      <div class="gold-stats" id="goldStats">
+        <div class="gold-stat-row"><span class="gold-stat-label">今日涨跌</span><span class="gold-stat-val">--</span></div>
+        <div class="gold-stat-row"><span class="gold-stat-label">近7日</span><span class="gold-stat-val">--</span></div>
+        <div class="gold-stat-row"><span class="gold-stat-label">近30日</span><span class="gold-stat-val">--</span></div>
+        <div class="gold-stat-row"><span class="gold-stat-label">年内高点</span><span class="gold-stat-val">--</span></div>
+        <div class="gold-stat-row"><span class="gold-stat-label">年内低点</span><span class="gold-stat-val">--</span></div>
+      </div>
+      <div class="gold-trend" id="goldTrend">
+        <div style="color:var(--muted);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.4px">近期趋势</div>
       </div>
     </div>
-    <div class="chart-container">
-      <canvas id="mainChart"></canvas>
-    </div>
-  </div>
+  </section>
 
-  <div class="analysis-grid" id="analysisGrid"></div>
-
-  <div class="trend-summary">
-    <h2>📊 趋势分析摘要</h2>
-    <div class="trend-rows" id="trendRows">
-      <div class="loading">正在生成分析...</div>
+  <!-- ② 外汇板块 -->
+  <section>
+    <div class="section-title">💱 主要外汇（对人民币）</div>
+    <div class="fx-grid" id="fxGrid">
+      <div style="color:var(--muted);padding:20px">加载中...</div>
     </div>
-  </div>
+  </section>
+
+  <!-- ③ 图表 -->
+  <section>
+    <div class="chart-section">
+      <div class="chart-header">
+        <div class="chart-title" id="chartTitle">黄金 · CNY/克</div>
+        <div class="chart-controls">
+          <div class="tab-btns" id="tabBtns">
+            <button class="tab-btn active" onclick="selectChart('xauusd_cny_g',this)">黄金(CNY)</button>
+            <button class="tab-btn" onclick="selectChart('xauusd',this)">黄金(USD)</button>
+            <button class="tab-btn" onclick="selectChart('cny_per_usd',this)">USD/CNY</button>
+            <button class="tab-btn" onclick="selectChart('cny_per_eur',this)">EUR/CNY</button>
+            <button class="tab-btn" onclick="selectChart('usdjpy',this)">USD/JPY</button>
+            <button class="tab-btn" onclick="selectChart('dxy',this)">DXY</button>
+          </div>
+          <div class="range-btns">
+            <button class="range-btn" onclick="setRange(30,this)">1M</button>
+            <button class="range-btn active" onclick="setRange(90,this)">3M</button>
+            <button class="range-btn" onclick="setRange(180,this)">6M</button>
+            <button class="range-btn" onclick="setRange(365,this)">1Y</button>
+          </div>
+        </div>
+      </div>
+      <div class="chart-container"><canvas id="mainChart"></canvas></div>
+    </div>
+  </section>
+
+  <!-- ④ 统计数据 -->
+  <section>
+    <div class="section-title">📊 统计数据</div>
+    <div class="stats-grid" id="statsGrid"></div>
+  </section>
+
+  <!-- ⑤ 趋势摘要 -->
+  <section>
+    <div class="section-title">🔍 趋势分析</div>
+    <div class="trend-summary">
+      <div class="trend-items" id="trendItems">
+        <div style="color:var(--muted)">正在生成分析...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ 数据来源 -->
+  <section>
+    <div class="source-note">
+      📌 <strong>数据来源说明</strong>：黄金国际价格来自 <a href="https://stooq.com" target="_blank">Stooq</a>（XAU/USD）；
+      人民币汇率参考 <a href="https://www.boc.cn/sourcedb/whpj/" target="_blank">中国银行外汇牌价</a>（中行折算价，100外币换人民币）；
+      历史汇率数据来自 <a href="https://www.frankfurter.app" target="_blank">Frankfurter (ECB)</a>；
+      DXY 美元指数由官方权重公式计算。
+      每2小时自动更新 · <a href="https://github.com/elephantflow/ElephantTrading" target="_blank">GitHub 仓库</a>
+    </div>
+  </section>
+
 </main>
 
 <footer>
-  数据来源：<a href="https://www.frankfurter.app" target="_blank">Frankfurter (ECB)</a>、
-  <a href="https://stooq.com" target="_blank">Stooq</a> · DXY 由官方权重公式计算 ·
-  每2小时自动更新 · <a href="https://github.com/elephantflow/ElephantTrading" target="_blank">GitHub</a>
+  🐘 ElephantTrading · 仅供参考，不构成投资建议
 </footer>
 
 <script>
-// ============================================================
-// CONFIG
-// ============================================================
-const ASSETS = [
-  { key: 'xauusd', label: '黄金', name: 'XAU/USD', unit: 'USD/oz', color: '#d4a017', decimals: 2 },
-  { key: 'dxy',    label: '美元指数', name: 'DXY',    unit: '',       color: '#58a6ff', decimals: 3 },
-  { key: 'eurusd', label: '欧元',   name: 'EUR/USD', unit: '',       color: '#3fb950', decimals: 5 },
-  { key: 'usdjpy', label: '日元',   name: 'USD/JPY', unit: '',       color: '#bc8cff', decimals: 3 },
+// ── CONFIG ──────────────────────────────────────────────────
+const CHART_CONFIGS = {
+  xauusd_cny_g: { label: '黄金 · CNY/克',    color: '#d4a017', unit: '元/克',  decimals: 2 },
+  xauusd:       { label: '黄金 · USD/oz',    color: '#d4a017', unit: 'USD/oz', decimals: 2 },
+  cny_per_usd:  { label: '美元 USD/CNY',     color: '#58a6ff', unit: '元',     decimals: 4 },
+  cny_per_eur:  { label: '欧元 EUR/CNY',     color: '#3fb950', unit: '元',     decimals: 4 },
+  usdjpy:       { label: 'USD/JPY',          color: '#bc8cff', unit: '日元',   decimals: 3 },
+  dxy:          { label: '美元指数 DXY',      color: '#58a6ff', unit: '',       decimals: 3 },
+};
+
+const FX_ASSETS = [
+  { key: 'cny_per_usd', name: '美元', flag: '🇺🇸', code: 'USD', color: '#58a6ff' },
+  { key: 'cny_per_eur', name: '欧元', flag: '🇪🇺', code: 'EUR', color: '#3fb950' },
+  { key: 'cny_per_gbp', name: '英镑', flag: '🇬🇧', code: 'GBP', color: '#f0a500' },
+  { key: 'cny_per_jpy', name: '日元', flag: '🇯🇵', code: 'JPY', color: '#bc8cff' },
 ];
 
 let allData = [];
-let currentAsset = ASSETS[0];
+let currentChartKey = 'xauusd_cny_g';
 let currentRange = 90;
 let chart = null;
 
-// ============================================================
-// DATA LOADING
-// ============================================================
+// ── DATA ─────────────────────────────────────────────────────
 async function loadData() {
   const res = await fetch('data/prices.json?t=' + Date.now());
   allData = await res.json();
-  return allData;
 }
 
 function getSlice(days) {
@@ -271,112 +284,167 @@ function getSlice(days) {
   return allData.filter(r => r.date >= cutStr);
 }
 
-// ============================================================
-// MOVING AVERAGE
-// ============================================================
+// ── UTILS ────────────────────────────────────────────────────
+function fmt(val, d) { return (val == null || isNaN(val)) ? '--' : Number(val).toFixed(d); }
+function fmtChg(pct) {
+  if (pct == null || isNaN(pct)) return '--';
+  const sign = pct >= 0 ? '+' : '';
+  return sign + pct.toFixed(2) + '%';
+}
+function chgClass(pct) { return pct > 0.05 ? 'up' : pct < -0.05 ? 'down' : 'flat'; }
+
 function movingAvg(data, key, n) {
   return data.map((_, i) => {
-    const slice = data.slice(Math.max(0, i - n + 1), i + 1).map(d => d[key]).filter(v => v !== null);
+    const slice = data.slice(Math.max(0, i - n + 1), i + 1).map(d => d[key]).filter(v => v != null);
     if (slice.length < Math.ceil(n / 2)) return null;
     return slice.reduce((a, b) => a + b, 0) / slice.length;
   });
 }
 
-// ============================================================
-// TREND ANALYSIS
-// ============================================================
 function analyzeTrend(data, key) {
-  const vals = data.map(d => d[key]).filter(v => v !== null);
+  const vals = data.map(d => d[key]).filter(v => v != null);
   if (vals.length < 5) return null;
-
   const latest = vals[vals.length - 1];
-  const prev1d = vals[vals.length - 2] || latest;
-  const prev7d = vals[Math.max(0, vals.length - 6)] || vals[0];
-  const prev30d = vals[Math.max(0, vals.length - 22)] || vals[0];
-  const minVal = Math.min(...vals);
-  const maxVal = Math.max(...vals);
-
+  const prev1d = vals[vals.length - 2] ?? latest;
+  const prev7d = vals[Math.max(0, vals.length - 6)] ?? vals[0];
+  const prev30d = vals[Math.max(0, vals.length - 22)] ?? vals[0];
   const chg1d = (latest - prev1d) / prev1d * 100;
   const chg7d = (latest - prev7d) / prev7d * 100;
   const chg30d = (latest - prev30d) / prev30d * 100;
+  const minVal = Math.min(...vals);
+  const maxVal = Math.max(...vals);
 
-  // 趋势判断（基于近30天线性回归斜率）
   const recent = vals.slice(-22);
   const n = recent.length;
   const xMean = (n - 1) / 2;
   const yMean = recent.reduce((a, b) => a + b, 0) / n;
   let num = 0, den = 0;
   recent.forEach((y, i) => { num += (i - xMean) * (y - yMean); den += (i - xMean) ** 2; });
-  const slope = den ? num / den : 0;
-  const slopePct = slope / yMean * 100;
+  const slopePct = den ? (num / den) / yMean * 100 : 0;
 
   let trend, trendClass;
   if (Math.abs(slopePct) < 0.05) { trend = '震荡整理'; trendClass = 'flat'; }
-  else if (slopePct > 0) { trend = slopePct > 0.15 ? '强势上涨' : '温和上涨'; trendClass = 'up'; }
-  else { trend = slopePct < -0.15 ? '明显下跌' : '温和下跌'; trendClass = 'down'; }
+  else if (slopePct > 0.15) { trend = '强势上涨'; trendClass = 'up'; }
+  else if (slopePct > 0) { trend = '温和上涨'; trendClass = 'up'; }
+  else if (slopePct < -0.15) { trend = '明显下跌'; trendClass = 'down'; }
+  else { trend = '温和下跌'; trendClass = 'down'; }
 
-  return { latest, chg1d, chg7d, chg30d, minVal, maxVal, trend, trendClass };
+  return { latest, chg1d, chg7d, chg30d, minVal, maxVal, trend, trendClass, slopePct };
 }
 
-function fmt(val, decimals) {
-  if (val === null || val === undefined) return '--';
-  return val.toFixed(decimals);
+// ── RENDER GOLD HERO ─────────────────────────────────────────
+function renderGoldHero() {
+  const slice = getSlice(365);
+  const stats = analyzeTrend(slice, 'xauusd_cny_g');
+  const statsUsd = analyzeTrend(slice, 'xauusd');
+  if (!stats) return;
+
+  const hero = document.getElementById('goldHero');
+  hero.querySelector('.price-cny').innerHTML = `${fmt(stats.latest, 2)}<span class="unit">元/克</span>`;
+  hero.querySelector('.price-usd').textContent = `国际价格：${statsUsd ? fmt(statsUsd.latest, 2) : '--'} USD/oz`;
+
+  const rows = [
+    { label: '今日涨跌', val: fmtChg(stats.chg1d), cls: chgClass(stats.chg1d) },
+    { label: '近7日',    val: fmtChg(stats.chg7d),  cls: chgClass(stats.chg7d) },
+    { label: '近30日',  val: fmtChg(stats.chg30d), cls: chgClass(stats.chg30d) },
+    { label: '年内高点', val: `${fmt(stats.maxVal, 2)} 元/克`, cls: '' },
+    { label: '年内低点', val: `${fmt(stats.minVal, 2)} 元/克`, cls: '' },
+  ];
+
+  document.getElementById('goldStats').innerHTML = rows.map(r =>
+    `<div class="gold-stat-row">
+      <span class="gold-stat-label">${r.label}</span>
+      <span class="gold-stat-val ${r.cls}">${r.val}</span>
+    </div>`
+  ).join('');
+
+  const trendClass = stats.trendClass;
+  const chipClass = trendClass === 'up' ? 'chip-up' : trendClass === 'down' ? 'chip-down' : 'chip-flat';
+  const trendIcon = trendClass === 'up' ? '↗' : trendClass === 'down' ? '↘' : '→';
+  const distHigh = (stats.latest - stats.maxVal) / stats.maxVal * 100;
+
+  document.getElementById('goldTrend').innerHTML = `
+    <div style="color:var(--muted);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.4px">近期趋势</div>
+    <span class="trend-chip ${chipClass}">${trendIcon} ${stats.trend}</span>
+    <div style="font-size:12px;color:var(--muted)">距年高 ${Math.abs(distHigh).toFixed(1)}%</div>
+    <div style="font-size:11px;color:var(--muted)">1克≈${fmt(stats.latest,2)}元<br>1两(31.25g)≈${fmt(stats.latest*31.25,0)}元</div>
+  `;
 }
 
-function fmtChg(pct) {
-  if (pct === null || pct === undefined || isNaN(pct)) return '--';
-  const sign = pct >= 0 ? '+' : '';
-  return `${sign}${pct.toFixed(2)}%`;
-}
-
-// ============================================================
-// RENDER CARDS
-// ============================================================
-function renderCards() {
+// ── RENDER FX GRID ────────────────────────────────────────────
+function renderFxGrid() {
   const slice30 = getSlice(30);
-  const slice1 = getSlice(2);
+  const slice365 = getSlice(365);
 
-  const cards = ASSETS.map(asset => {
-    const stats = analyzeTrend(slice30, asset.key);
-    if (!stats) return `<div class="card" onclick="selectAsset('${asset.key}')">
-      <div class="label">${asset.label} · ${asset.name}</div>
-      <div class="price">--</div>
-    </div>`;
+  const html = FX_ASSETS.map(asset => {
+    const stats = analyzeTrend(slice365, asset.key);
+    if (!stats) return `<div class="fx-card"><div class="fx-name">${asset.flag} ${asset.name}</div><div style="color:var(--muted)">暂无数据</div></div>`;
 
-    const chgClass = stats.chg1d > 0 ? 'up' : stats.chg1d < 0 ? 'down' : 'flat';
-    const badgeClass = stats.trendClass === 'up' ? 'badge-up' : stats.trendClass === 'down' ? 'badge-down' : 'badge-flat';
-    const arrow = stats.chg1d > 0 ? '▲' : stats.chg1d < 0 ? '▼' : '◆';
+    const latest = stats.latest;
+    const inverse = latest > 0 ? (1 / latest) : null;
+
+    // 显示逻辑：对日元特殊处理（1人民币可以换100+日元）
+    let mainRate, mainUnit, subRate, subUnit;
+    if (asset.code === 'JPY') {
+      mainRate = fmt(latest * 100, 4); // 100 JPY = x CNY
+      mainUnit = '元 / 100日元';
+      subRate = inverse ? fmt(inverse, 4) : '--';
+      subUnit = '日元 / 1元';
+    } else {
+      mainRate = fmt(latest, 4);
+      mainUnit = `元 / 1${asset.code}`;
+      subRate = inverse ? fmt(inverse, 4) : '--';
+      subUnit = `${asset.code} / 1元`;
+    }
+
+    const chipClass = stats.trendClass === 'up' ? 'chip-up' : stats.trendClass === 'down' ? 'chip-down' : 'chip-flat';
     const trendIcon = stats.trendClass === 'up' ? '↗' : stats.trendClass === 'down' ? '↘' : '→';
 
-    return `<div class="card ${currentAsset.key === asset.key ? 'active' : ''}" onclick="selectAsset('${asset.key}')">
-      <div class="label">${asset.label} · ${asset.name}</div>
-      <div class="price">${fmt(stats.latest, asset.decimals)}</div>
-      <div class="change">
-        <span class="${chgClass}">${arrow} ${fmtChg(stats.chg1d)} 今日</span>
-        <span class="trend-badge ${badgeClass}">${trendIcon} ${stats.trend}</span>
+    return `<div class="fx-card" onclick="selectChart('${asset.key}',null)" style="border-color: ${currentChartKey===asset.key ? 'var(--accent)' : ''}">
+      <div class="fx-header">
+        <div>
+          <div class="fx-name">${asset.flag} ${asset.name}</div>
+          <div class="fx-code">${asset.code}</div>
+        </div>
+        <span class="trend-chip ${chipClass}" style="font-size:11px">${trendIcon} ${stats.trend}</span>
+      </div>
+      <div class="fx-main-rates">
+        <div class="fx-rate-block">
+          <div class="rate-label">1 ${asset.code === 'JPY' ? '100日元' : asset.code} =</div>
+          <div class="rate-val" style="color:${asset.color}">${mainRate}</div>
+          <div class="rate-unit">${mainUnit}</div>
+        </div>
+        <div class="fx-divider"></div>
+        <div class="fx-rate-block">
+          <div class="rate-label">1 元 =</div>
+          <div class="rate-val">${asset.code === 'JPY' ? fmt(inverse,3) : subRate}</div>
+          <div class="rate-unit">${asset.code === 'JPY' ? '日元 / 1元' : subUnit}</div>
+        </div>
+      </div>
+      <div class="fx-change">
+        今日 <span class="${chgClass(stats.chg1d)}">${fmtChg(stats.chg1d)}</span> &nbsp;
+        近7日 <span class="${chgClass(stats.chg7d)}">${fmtChg(stats.chg7d)}</span> &nbsp;
+        近30日 <span class="${chgClass(stats.chg30d)}">${fmtChg(stats.chg30d)}</span>
       </div>
     </div>`;
   }).join('');
 
-  document.getElementById('cards').innerHTML = cards;
+  document.getElementById('fxGrid').innerHTML = html;
 }
 
-// ============================================================
-// RENDER CHART
-// ============================================================
+// ── RENDER CHART ──────────────────────────────────────────────
 function renderChart() {
   const slice = getSlice(currentRange);
-  const asset = currentAsset;
+  const cfg = CHART_CONFIGS[currentChartKey] || CHART_CONFIGS['xauusd_cny_g'];
 
-  document.getElementById('chartTitle').textContent = `${asset.label} · ${asset.name}`;
+  document.getElementById('chartTitle').textContent = cfg.label;
 
   const labels = slice.map(d => d.date);
-  const values = slice.map(d => d[asset.key]);
-  const ma7 = movingAvg(slice, asset.key, 7);
-  const ma30 = movingAvg(slice, asset.key, 30);
+  const values = slice.map(d => d[currentChartKey] ?? null);
+  const ma7 = movingAvg(slice, currentChartKey, 7);
+  const ma30 = movingAvg(slice, currentChartKey, 30);
 
   const ctx = document.getElementById('mainChart').getContext('2d');
-
   if (chart) chart.destroy();
 
   chart = new Chart(ctx, {
@@ -385,14 +453,15 @@ function renderChart() {
       labels,
       datasets: [
         {
-          label: asset.name,
+          label: cfg.label,
           data: values,
-          borderColor: asset.color,
-          backgroundColor: asset.color + '18',
+          borderColor: cfg.color,
+          backgroundColor: cfg.color + '15',
           borderWidth: 2,
           pointRadius: 0,
           tension: 0.3,
           fill: true,
+          spanGaps: true,
         },
         {
           label: 'MA7',
@@ -403,6 +472,7 @@ function renderChart() {
           tension: 0.3,
           fill: false,
           borderDash: [4, 3],
+          spanGaps: true,
         },
         {
           label: 'MA30',
@@ -413,6 +483,7 @@ function renderChart() {
           tension: 0.3,
           fill: false,
           borderDash: [8, 4],
+          spanGaps: true,
         },
       ]
     },
@@ -421,9 +492,7 @@ function renderChart() {
       maintainAspectRatio: false,
       interaction: { mode: 'index', intersect: false },
       plugins: {
-        legend: {
-          labels: { color: '#8b949e', boxWidth: 20, padding: 12, font: { size: 12 } }
-        },
+        legend: { labels: { color: '#8b949e', boxWidth: 18, padding: 12, font: { size: 12 } } },
         tooltip: {
           backgroundColor: '#1c2128',
           borderColor: '#30363d',
@@ -431,29 +500,17 @@ function renderChart() {
           titleColor: '#e6edf3',
           bodyColor: '#8b949e',
           callbacks: {
-            label: (ctx) => {
-              if (ctx.parsed.y === null) return '';
-              return `  ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(asset.decimals)}`;
-            }
+            label: ctx => ctx.parsed.y == null ? '' : `  ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(cfg.decimals)}${cfg.unit ? ' ' + cfg.unit : ''}`,
           }
         }
       },
       scales: {
         x: {
-          ticks: {
-            color: '#8b949e',
-            maxTicksLimit: 8,
-            font: { size: 11 },
-            maxRotation: 0,
-          },
+          ticks: { color: '#8b949e', maxTicksLimit: 8, font: { size: 11 }, maxRotation: 0 },
           grid: { color: '#21262d' }
         },
         y: {
-          ticks: {
-            color: '#8b949e',
-            font: { size: 11 },
-            callback: v => v !== null ? v.toFixed(asset.decimals) : '',
-          },
+          ticks: { color: '#8b949e', font: { size: 11 }, callback: v => v != null ? v.toFixed(cfg.decimals) : '' },
           grid: { color: '#21262d' }
         }
       }
@@ -461,128 +518,110 @@ function renderChart() {
   });
 }
 
-// ============================================================
-// RENDER ANALYSIS CARDS
-// ============================================================
-function renderAnalysis() {
+// ── RENDER STATS GRID ─────────────────────────────────────────
+function renderStats() {
   const slice = getSlice(365);
+  const allAssets = [
+    { key: 'xauusd_cny_g', name: '黄金', sub: 'CNY/克',  d: 2 },
+    { key: 'xauusd',       name: '黄金', sub: 'USD/oz',  d: 2 },
+    { key: 'cny_per_usd',  name: 'USD/CNY', sub: '中行折算', d: 4 },
+    { key: 'cny_per_eur',  name: 'EUR/CNY', sub: '中行折算', d: 4 },
+    { key: 'cny_per_gbp',  name: 'GBP/CNY', sub: '中行折算', d: 4 },
+    { key: 'cny_per_jpy',  name: 'JPY/CNY', sub: '1日元', d: 5 },
+    { key: 'dxy',          name: 'DXY',     sub: '美元指数', d: 3 },
+  ];
 
-  const html = ASSETS.map(asset => {
-    const stats = analyzeTrend(slice, asset.key);
+  const html = allAssets.map(a => {
+    const stats = analyzeTrend(slice, a.key);
+    if (!stats) return '';
+    return `<div class="stat-card">
+      <h4>${a.name} <span style="font-weight:400;text-transform:none">${a.sub}</span></h4>
+      ${[
+        ['最新价', fmt(stats.latest, a.d)],
+        ['今日', `<span class="${chgClass(stats.chg1d)}">${fmtChg(stats.chg1d)}</span>`],
+        ['近7日', `<span class="${chgClass(stats.chg7d)}">${fmtChg(stats.chg7d)}</span>`],
+        ['近30日', `<span class="${chgClass(stats.chg30d)}">${fmtChg(stats.chg30d)}</span>`],
+        ['年内高点', fmt(stats.maxVal, a.d)],
+        ['年内低点', fmt(stats.minVal, a.d)],
+      ].map(([k, v]) => `<div class="stat-row"><span class="stat-key">${k}</span><span>${v}</span></div>`).join('')}
+    </div>`;
+  }).join('');
+
+  document.getElementById('statsGrid').innerHTML = html;
+}
+
+// ── RENDER TREND SUMMARY ──────────────────────────────────────
+function renderTrendSummary() {
+  const slice = getSlice(365);
+  const assets = [
+    { key: 'xauusd_cny_g', icon: '🥇', name: '黄金', unit: 'CNY/克' },
+    { key: 'cny_per_usd',  icon: '🇺🇸', name: '美元汇率 (USD/CNY)', unit: '' },
+    { key: 'cny_per_eur',  icon: '🇪🇺', name: '欧元汇率 (EUR/CNY)', unit: '' },
+    { key: 'dxy',          icon: '📈', name: '美元指数 (DXY)', unit: '' },
+  ];
+
+  const html = assets.map(a => {
+    const stats = analyzeTrend(slice, a.key);
     if (!stats) return '';
 
-    return `<div class="analysis-card">
-      <h3>${asset.label} · ${asset.name}</h3>
-      <div class="stat-row">
-        <span class="stat-label">最新</span>
-        <span class="stat-val">${fmt(stats.latest, asset.decimals)}</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">日涨跌</span>
-        <span class="stat-val ${stats.chg1d > 0 ? 'up' : stats.chg1d < 0 ? 'down' : 'flat'}">${fmtChg(stats.chg1d)}</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">近7日</span>
-        <span class="stat-val ${stats.chg7d > 0 ? 'up' : stats.chg7d < 0 ? 'down' : 'flat'}">${fmtChg(stats.chg7d)}</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">近30日</span>
-        <span class="stat-val ${stats.chg30d > 0 ? 'up' : stats.chg30d < 0 ? 'down' : 'flat'}">${fmtChg(stats.chg30d)}</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">近1年最低</span>
-        <span class="stat-val">${fmt(stats.minVal, asset.decimals)}</span>
-      </div>
-      <div class="stat-row">
-        <span class="stat-label">近1年最高</span>
-        <span class="stat-val">${fmt(stats.maxVal, asset.decimals)}</span>
+    const { chg7d, chg30d, trend, trendClass, latest, maxVal, minVal } = stats;
+    const distHigh = (latest - maxVal) / maxVal * 100;
+    const distLow = (latest - minVal) / minVal * 100;
+
+    let posDesc = '';
+    if (distHigh > -2) posDesc = `处于<span class="up">近1年高位</span>（距高点 ${Math.abs(distHigh).toFixed(1)}%）`;
+    else if (distLow < 5) posDesc = `处于<span class="down">近1年低位</span>（距低点 ${Math.abs(distLow).toFixed(1)}%）`;
+    else posDesc = `位于年内中间区间（距高点 ${Math.abs(distHigh).toFixed(1)}%，距低点 ${Math.abs(distLow).toFixed(1)}%）`;
+
+    const trendSpan = `<span class="${trendClass}">${trend}</span>`;
+    const desc = `近7日 <span class="${chgClass(chg7d)}">${fmtChg(chg7d)}</span>，近30日 <span class="${chgClass(chg30d)}">${fmtChg(chg30d)}</span>，整体呈${trendSpan}走势。${posDesc}。`;
+
+    return `<div class="trend-item">
+      <div class="trend-icon">${a.icon}</div>
+      <div class="trend-body">
+        <div class="trend-name">${a.name}</div>
+        <div class="trend-desc">${desc}</div>
       </div>
     </div>`;
   }).join('');
 
-  document.getElementById('analysisGrid').innerHTML = html;
+  document.getElementById('trendItems').innerHTML = html;
 }
 
-// ============================================================
-// RENDER TREND SUMMARY TEXT
-// ============================================================
-function renderTrendSummary() {
-  const slice365 = getSlice(365);
-  const slice30 = getSlice(30);
-
-  const rows = ASSETS.map(asset => {
-    const s365 = analyzeTrend(slice365, asset.key);
-    const s30 = analyzeTrend(slice30, asset.key);
-    if (!s365) return '';
-
-    const trendIcon = s365.trendClass === 'up' ? '↗' : s365.trendClass === 'down' ? '↘' : '→';
-    const trendClass = s365.trendClass;
-
-    // 生成分析文字
-    let text = '';
-    const yr30 = s365.chg30d;
-    const yr7 = s365.chg7d;
-
-    text += `近1年累计 <span class="${yr30 > 0 ? 'up' : yr30 < 0 ? 'down' : 'flat'}">${fmtChg(yr30)}</span>，`;
-    text += `近7日 <span class="${yr7 > 0 ? 'up' : yr7 < 0 ? 'down' : 'flat'}">${fmtChg(yr7)}</span>。`;
-    text += `近30日呈<strong class="${trendClass}">${s365.trend}</strong>态势。`;
-
-    // 与1年高低点比较
-    const distFromHigh = (s365.latest - s365.maxVal) / s365.maxVal * 100;
-    const distFromLow = (s365.latest - s365.minVal) / s365.minVal * 100;
-    if (distFromHigh > -3) {
-      text += ` 当前价格接近<span class="up">年内高点</span>（距高点 ${Math.abs(distFromHigh).toFixed(1)}%）。`;
-    } else if (distFromLow < 5) {
-      text += ` 当前价格接近<span class="down">年内低点</span>（距低点 ${distFromLow.toFixed(1)}%）。`;
-    } else {
-      text += ` 当前处于年内高低点中间位置（距高点 ${Math.abs(distFromHigh).toFixed(1)}%，距低点 ${distFromLow.toFixed(1)}%）。`;
-    }
-
-    return `<div class="trend-row">
-      <div>
-        <div class="asset-name">${asset.label}<br><span style="font-size:11px;color:var(--muted);font-weight:400">${asset.name}</span></div>
-      </div>
-      <div class="trend-text">${text}</div>
-    </div>`;
-  }).join('');
-
-  document.getElementById('trendRows').innerHTML = rows;
-}
-
-// ============================================================
-// INTERACTIONS
-// ============================================================
-function selectAsset(key) {
-  currentAsset = ASSETS.find(a => a.key === key) || ASSETS[0];
-  renderCards();
+// ── INTERACTIONS ──────────────────────────────────────────────
+function selectChart(key, btn) {
+  currentChartKey = key;
+  if (btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
   renderChart();
+  renderFxGrid(); // update active state
 }
 
-function setRange(days) {
+function setRange(days, btn) {
   currentRange = days;
-  document.querySelectorAll('.range-btn').forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
+  document.querySelectorAll('.range-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
   renderChart();
 }
 
-// ============================================================
-// INIT
-// ============================================================
+// ── INIT ──────────────────────────────────────────────────────
 async function init() {
   try {
     await loadData();
-
     if (allData.length) {
       const last = allData[allData.length - 1];
-      document.getElementById('lastUpdated').textContent = `最后更新：${last.date} · 共 ${allData.length} 条记录`;
+      document.getElementById('lastUpdated').innerHTML =
+        `最后更新：${last.date}<br>共 ${allData.length} 条记录`;
     }
-
-    renderCards();
+    renderGoldHero();
+    renderFxGrid();
     renderChart();
-    renderAnalysis();
+    renderStats();
     renderTrendSummary();
   } catch (e) {
-    document.getElementById('cards').innerHTML = `<div class="loading" style="color:var(--red)">数据加载失败：${e.message}</div>`;
+    document.body.innerHTML += `<div style="color:red;padding:20px">数据加载失败：${e.message}</div>`;
     console.error(e);
   }
 }
