@@ -612,8 +612,9 @@ async function init() {
     await loadData();
     if (allData.length) {
       const last = allData[allData.length - 1];
+      const timeStr = last.updatedAt || last.date;
       document.getElementById('lastUpdated').innerHTML =
-        `最后更新：${last.date}<br>共 ${allData.length} 条记录`;
+        `最后更新：${timeStr}<br>共 ${allData.length} 条记录`;
     }
     renderGoldHero();
     renderFxGrid();

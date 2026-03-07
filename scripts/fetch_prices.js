@@ -32,6 +32,12 @@ function formatDate(d) {
   return d.toISOString().split('T')[0];
 }
 
+function formatDateTime(d) {
+  // 北京时间 YYYY-MM-DD HH:MM
+  const cst = new Date(d.getTime() + 8 * 3600 * 1000);
+  return cst.toISOString().replace('T', ' ').slice(0, 16) + ' (北京)';
+}
+
 function calcDXY(rates) {
   const { EUR, JPY, GBP, CAD, SEK, CHF } = rates;
   if (!EUR || !JPY || !GBP || !CAD || !SEK || !CHF) return null;
@@ -192,7 +198,9 @@ async function main() {
     bocRates = await fetchBOCRatesFallback();
   }
 
-  const today = formatDate(new Date());
+  const now = new Date();
+  const today = formatDate(now);
+  const updatedAt = formatDateTime(now);
 
   // 黄金人民币/克
   let xauusd_cny_g = null;
@@ -202,6 +210,7 @@ async function main() {
 
   const newRecord = {
     date: today,
+    updatedAt,
     xauusd: gold,
     dxy: fx.dxy || null,
     eurusd: fx.eurusd || null,
@@ -231,7 +240,7 @@ async function main() {
   }
 
   const idx = history.findIndex(r => r.date === today);
-  const allKeys = ['xauusd','dxy','eurusd','usdjpy','gbpusd','cny_per_usd','cny_per_eur','cny_per_jpy','cny_per_gbp','xauusd_cny_g'];
+  const allKeys = ['updatedAt','xauusd','dxy','eurusd','usdjpy','gbpusd','cny_per_usd','cny_per_eur','cny_per_jpy','cny_per_gbp','xauusd_cny_g'];
   if (idx >= 0) {
     for (const k of allKeys) {
       if (newRecord[k] !== null && newRecord[k] !== undefined) history[idx][k] = newRecord[k];
