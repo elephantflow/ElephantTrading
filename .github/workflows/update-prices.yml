@@ -1,0 +1,33 @@
+name: Update Prices
+
+on:
+  schedule:
+    # 每2小时执行一次（UTC时间，对应北京时间 2,4,6,8,10,12,14,16,18,20,22,0 点）
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest prices
+        run: node scripts/fetch_prices.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "ElephantTrading Bot"
+          git config user.email "bot@elephanttrading"
+          git add data/prices.json data/alerts.json 2>/dev/null || git add data/prices.json
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: update prices $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git push
