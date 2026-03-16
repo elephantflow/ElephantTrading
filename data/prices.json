@@ -3481,16 +3481,16 @@
   },
   {
     "date": "2026-03-16",
-    "updatedAt": "2026-03-16 14:06 (北京)",
-    "xauusd": 5018.84,
+    "updatedAt": "2026-03-16 19:14 (北京)",
+    "xauusd": 5003.23,
     "dxy": 100.047,
     "eurusd": 1.1476,
     "usdjpy": 159.33,
     "gbpusd": 1.32666,
-    "cny_per_usd": 6.896552,
-    "cny_per_eur": 7.914523,
-    "cny_per_jpy": 0.043284,
-    "cny_per_gbp": 9.149131,
-    "xauusd_cny_g": 1112.82
+    "cny_per_usd": 6.9057,
+    "cny_per_eur": 7.896,
+    "cny_per_jpy": 0.043276,
+    "cny_per_gbp": 9.1449,
+    "xauusd_cny_g": 1110.83
   }
 ]
