@@ -351,5 +351,25 @@
         "to": 1013.17
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-20T19:50:45.902Z",
+    "date": "2026-03-20",
+    "alerts": [
+      {
+        "asset": "XAUUSD",
+        "direction": "📉 下跌",
+        "changePct": 2.95,
+        "from": 4644.84,
+        "to": 4507.62
+      },
+      {
+        "asset": "XAUUSD_CNY_G",
+        "direction": "📉 下跌",
+        "changePct": 3.06,
+        "from": 1030.04,
+        "to": 998.49
+      }
+    ]
   }
 ]
