@@ -889,5 +889,32 @@
         "to": 159.6
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-02T17:11:45.733Z",
+    "date": "2026-04-02",
+    "alerts": [
+      {
+        "asset": "XAUUSD",
+        "direction": "📉 下跌",
+        "changePct": 1.99,
+        "from": 4756.89,
+        "to": 4662.19
+      },
+      {
+        "asset": "USDJPY",
+        "direction": "📈 上涨",
+        "changePct": 0.81,
+        "from": 158.32,
+        "to": 159.6
+      },
+      {
+        "asset": "XAUUSD_CNY_G",
+        "direction": "📉 下跌",
+        "changePct": 2.2,
+        "from": 1055.65,
+        "to": 1032.46
+      }
+    ]
   }
 ]
