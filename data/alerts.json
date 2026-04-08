@@ -1,25 +1,5 @@
 [
   {
-    "timestamp": "2026-03-23T21:51:55.254Z",
-    "date": "2026-03-23",
-    "alerts": [
-      {
-        "asset": "XAUUSD",
-        "direction": "📉 下跌",
-        "changePct": 1.94,
-        "from": 4493.95,
-        "to": 4406.69
-      },
-      {
-        "asset": "XAUUSD_CNY_G",
-        "direction": "📉 下跌",
-        "changePct": 1.74,
-        "from": 995.46,
-        "to": 978.16
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-24T05:16:22.618Z",
     "date": "2026-03-24",
     "alerts": [
@@ -786,6 +766,33 @@
         "changePct": 2.23,
         "from": 1033.05,
         "to": 1056.08
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-08T15:16:46.987Z",
+    "date": "2026-04-08",
+    "alerts": [
+      {
+        "asset": "DXY",
+        "direction": "📉 下跌",
+        "changePct": 1.3,
+        "from": 99.961,
+        "to": 98.664
+      },
+      {
+        "asset": "EURUSD",
+        "direction": "📈 上涨",
+        "changePct": 1.29,
+        "from": 1.1557,
+        "to": 1.1706
+      },
+      {
+        "asset": "USDJPY",
+        "direction": "📉 下跌",
+        "changePct": 1.06,
+        "from": 159.84,
+        "to": 158.15
       }
     ]
   }
