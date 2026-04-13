@@ -1,25 +1,5 @@
 [
   {
-    "timestamp": "2026-04-01T17:45:38.587Z",
-    "date": "2026-04-01",
-    "alerts": [
-      {
-        "asset": "XAUUSD",
-        "direction": "📈 上涨",
-        "changePct": 8.71,
-        "from": 4399.75,
-        "to": 4783.12
-      },
-      {
-        "asset": "XAUUSD_CNY_G",
-        "direction": "📈 上涨",
-        "changePct": 8.84,
-        "from": 975.23,
-        "to": 1061.47
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-01T18:10:25.697Z",
     "date": "2026-04-01",
     "alerts": [
@@ -821,6 +801,26 @@
         "changePct": 1.55,
         "from": 1028.16,
         "to": 1044.12
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T17:10:50.192Z",
+    "date": "2026-04-13",
+    "alerts": [
+      {
+        "asset": "XAUUSD",
+        "direction": "📈 上涨",
+        "changePct": 1.55,
+        "from": 4658.06,
+        "to": 4730.3
+      },
+      {
+        "asset": "XAUUSD_CNY_G",
+        "direction": "📈 上涨",
+        "changePct": 1.56,
+        "from": 1028.16,
+        "to": 1044.15
       }
     ]
   }
