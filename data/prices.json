@@ -4517,16 +4517,16 @@
   },
   {
     "date": "2026-06-05",
-    "updatedAt": "2026-06-05 18:01 (北京)",
-    "xauusd": null,
-    "dxy": 99.221,
+    "updatedAt": "2026-06-05 23:15 (北京)",
+    "xauusd": 4354.84,
+    "dxy": 99.207,
     "eurusd": 1.164,
-    "usdjpy": 159.8,
-    "gbpusd": 1.34582,
+    "usdjpy": 159.86,
+    "gbpusd": 1.34671,
     "cny_per_usd": 6.8157,
     "cny_per_eur": 7.8919,
     "cny_per_jpy": 0.04251,
     "cny_per_gbp": 9.1231,
-    "xauusd_cny_g": 973.21
+    "xauusd_cny_g": 954.28
   }
 ]
