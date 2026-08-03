@@ -1,18 +1,5 @@
 [
   {
-    "timestamp": "2026-04-30T17:26:03.347Z",
-    "date": "2026-04-30",
-    "alerts": [
-      {
-        "asset": "USDJPY",
-        "direction": "📉 下跌",
-        "changePct": 2.02,
-        "from": 159.79,
-        "to": 156.56
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-30T19:40:59.694Z",
     "date": "2026-04-30",
     "alerts": [
@@ -925,6 +912,19 @@
   },
   {
     "timestamp": "2026-08-03T14:49:43.671Z",
+    "date": "2026-08-03",
+    "alerts": [
+      {
+        "asset": "USDJPY",
+        "direction": "📉 下跌",
+        "changePct": 2.22,
+        "from": 160.24,
+        "to": 156.68
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-03T17:55:40.889Z",
     "date": "2026-08-03",
     "alerts": [
       {
