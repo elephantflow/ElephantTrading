@@ -6435,16 +6435,16 @@
   },
   {
     "date": "2026-10-20",
-    "updatedAt": "2026-10-20 08:58 (北京)",
+    "updatedAt": "2026-10-20 15:20 (北京)",
     "xauusd": null,
     "dxy": 101.826,
     "eurusd": 1.1225,
     "usdjpy": 158.24,
     "gbpusd": 1.33305,
-    "cny_per_usd": 6.7208,
-    "cny_per_eur": 7.5237,
-    "cny_per_jpy": 0.04248,
-    "cny_per_gbp": 8.9362,
+    "cny_per_usd": 6.72,
+    "cny_per_eur": 7.5159,
+    "cny_per_jpy": 0.042327,
+    "cny_per_gbp": 8.9187,
     "xauusd_cny_g": null
   }
 ]
