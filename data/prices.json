@@ -6684,5 +6684,19 @@
     "cny_per_jpy": 0.042534,
     "cny_per_gbp": 9.0152,
     "xauusd_cny_g": null
+  },
+  {
+    "date": "2026-11-07",
+    "updatedAt": "2026-11-07 08:00 (北京)",
+    "xauusd": null,
+    "dxy": 102.06,
+    "eurusd": 1.1165,
+    "usdjpy": 158.33,
+    "gbpusd": 1.33849,
+    "cny_per_usd": 6.7168,
+    "cny_per_eur": 7.5191,
+    "cny_per_jpy": 0.042534,
+    "cny_per_gbp": 9.0152,
+    "xauusd_cny_g": null
   }
 ]
